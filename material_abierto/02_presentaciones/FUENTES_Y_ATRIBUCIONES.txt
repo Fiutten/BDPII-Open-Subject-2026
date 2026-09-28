@@ -1,0 +1,3 @@
+INVENTARIO DE FUENTES Y ATRIBUCIONES — PENDIENTE
+
+Este fichero documentará las fuentes, licencias y atribuciones de los elementos de terceros incorporados a las presentaciones de Big Data Processing II.
