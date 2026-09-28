@@ -1,0 +1,26 @@
+
+DESCRIPCIÓN DEL CONJUNTO DE DATOS: SENSORES DEPORTIVOS CON EFECTO DE FATIGA
+
+Este conjunto de datos contiene información simulada recogida durante 3 partidos diferentes, para 15 jugadores. Las mediciones son tomadas cada 5 segundos e incluyen parámetros de posición, velocidad, aceleración y frecuencia cardíaca.
+
+Este dataset ha sido diseñado específicamente para reflejar un **efecto de fatiga progresiva** en el jugador con ID 7. A medida que avanza cada partido, este jugador muestra una disminución gradual de su velocidad y aceleración, simulando el desgaste físico real.
+
+CAMPOS INCLUIDOS:
+
+- partido_id: Identificador del partido (1, 2, o 3).
+- time: Marca temporal de la medición en formato ISO 8601.
+- jugador_id: Identificador del jugador (1 a 15).
+- pos_x: Posición X del jugador en el campo (0 a 100 metros).
+- pos_y: Posición Y del jugador en el campo (0 a 60 metros).
+- velocidad_kmh: Velocidad instantánea del jugador en kilómetros por hora. Disminuye con el tiempo para el jugador 7.
+- aceleracion_m_s2: Aceleración instantánea del jugador en metros por segundo al cuadrado. Disminuye también para el jugador 7.
+- frecuencia_cardiaca_bpm: Frecuencia cardíaca en latidos por minuto.
+
+USOS POTENCIALES:
+- Análisis del impacto de la fatiga sobre el rendimiento.
+- Evaluación comparativa entre jugadores fatigados y no fatigados.
+- Predicción de deterioro físico durante partidos largos.
+- Visualización de trayectorias, cargas y recuperación en entornos deportivos reales o académicos.
+
+Este dataset es ideal para actividades educativas en cursos de análisis de datos, Big Data deportivo o machine learning aplicado al rendimiento.
+

@@ -24,7 +24,15 @@ Repositorio de trabajo para preparar la publicación en abierto de **Big Data Pr
 
 ## Material incorporado
 
-El inventario actual contiene la guía docente oficial y la parte disponible del bloque **Tema 4 - Inteligencia Artificial Generativa aplicada a Big Data Deportivo**:
+El inventario actual contiene la guía docente oficial, los temas 1 a 3 y la parte disponible del bloque **Tema 4 - Inteligencia Artificial Generativa aplicada a Big Data Deportivo**.
+
+Temas 1 a 3 (procesamiento distribuido, Kafka y Spark Structured Streaming, optimización y escalabilidad):
+
+- cuatro presentaciones con sus fuentes LaTeX e imágenes;
+- dos enunciados de ejercicios de Kafka y Spark Structured Streaming;
+- notebooks, productor Kafka, entorno Docker y un conjunto de datos simulado de telemetría deportiva.
+
+Tema 4:
 
 - tres presentaciones: prompt engineering y post-training, RAG y sistemas basados en agentes;
 - tres colecciones de ejercicios, en PDF y DOCX;
@@ -32,7 +40,7 @@ El inventario actual contiene la guía docente oficial y la parte disponible del
 - ejemplos de código para RAG y agentes;
 - una práctica final integradora de Kafka, Spark, RAG y LangGraph.
 
-El detalle y la procedencia se documentan en `material_original/INVENTARIO_MATERIALES.md`. Faltan por incorporar las otras dos partes de la asignatura que aportarán Natalia Madrueño Sierro y Rubén Rodríguez Fernández.
+El detalle y la procedencia se documentan en `material_original/INVENTARIO_MATERIALES.md`. Falta por incorporar la parte de la asignatura que aportará Rubén Rodríguez Fernández.
 
 ## Criterios de publicación
 
