@@ -2,24 +2,52 @@
 
 Este documento centraliza el seguimiento de la futura publicación de **Big Data Processing II** en BURJC Digital.
 
+## Equipo docente
+
+- Alberto Fernández Isabel - profesor responsable.
+- Natalia Madrueño Sierro.
+- Rubén Rodríguez Fernández.
+
+La autoría y los porcentajes correspondientes a cada docente se fijarán cuando se hayan reunido y revisado las tres aportaciones.
+
 ## Estructura prevista
 
 - `BURJC/01_SUBIR/`: copias de los ficheros definitivos que se adjuntarán al depósito.
 - `BURJC/02_APOYO/`: metadatos, instrucciones y sumas SHA-256; no se sube.
 - `material_abierto/99_burjc_package/`: área de construcción y respaldo.
 
-## Categorías inicialmente preparadas
+## Estado del inventario
 
-La estructura admite las categorías 0, 1, 2, 3, 6 y 8. La relación definitiva se fijará después de inventariar los materiales reales de la asignatura.
+Se ha incorporado y organizado:
+
+- la guía docente oficial del curso 2026-2027;
+- el bloque del tema 4 sobre IA generativa: tres presentaciones, tres hojas de ejercicios, fuentes editables y ejemplos de código;
+- una práctica final que integra Kafka, Spark, RAG y LangGraph.
+
+Permanecen pendientes las otras dos partes de la asignatura, que serán aportadas por Natalia Madrueño Sierro y Rubén Rodríguez Fernández.
+
+## Correspondencia provisional con la convocatoria
+
+- Categoría 0: falta preparar la guía de estudio específica; la guía docente oficial se conserva como referencia.
+- Categoría 1: sin materiales clasificados todavía.
+- Categoría 2: tres presentaciones del bloque de IA generativa, pendientes de auditoría.
+- Categoría 3: tres colecciones de ejercicios y una práctica final, pendientes de consolidación.
+- Categoría 6: cinco programas Python y sus dependencias, pendientes de revisión y documentación para uso autónomo.
+- Categoría 8: sin materiales clasificados todavía.
+
+La relación definitiva de categorías se fijará después de incorporar las tres partes de la asignatura.
 
 ## Lista de control
 
-- [ ] Inventariar los materiales disponibles.
+- [x] Crear la estructura inicial del repositorio.
+- [x] Inventariar y organizar la primera aportación.
+- [ ] Recibir y organizar las aportaciones restantes.
+- [ ] Confirmar la autoría y los porcentajes de los tres docentes.
 - [ ] Confirmar las categorías que se presentan.
 - [ ] Preparar la guía de estudio de categoría 0.
 - [ ] Auditar derechos, licencias, fuentes y atribuciones.
 - [ ] Determinar el PDF canónico de cada material.
-- [ ] Reunir los formatos editables.
+- [ ] Reunir y revisar los formatos editables.
 - [ ] Preparar y documentar el software de categoría 6, si procede.
 - [ ] Obtener el SWHID exacto de la versión archivada, si procede.
 - [ ] Construir el libro o PDF principal.

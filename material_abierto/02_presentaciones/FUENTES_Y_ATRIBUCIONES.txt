@@ -1,3 +1,13 @@
-INVENTARIO DE FUENTES Y ATRIBUCIONES — PENDIENTE
+INVENTARIO DE FUENTES Y ATRIBUCIONES - EN PREPARACION
 
-Este fichero documentará las fuentes, licencias y atribuciones de los elementos de terceros incorporados a las presentaciones de Big Data Processing II.
+Material localizado:
+- Sesión 1: Prompt Engineering y Post-training, 54 diapositivas.
+- Sesión 2: Retrieval-Augmented Generation (RAG), 30 diapositivas.
+- Sesión 3: Sistemas basados en agentes, 36 diapositivas.
+- Fuentes editables: tres ficheros LaTeX y un conjunto de recursos gráficos conservados en material_original/teoria/04_IA_Generativa/editables/.
+
+Estado:
+Los PDF todavía no incluyen una sección final completa de referencias, atribuciones y licencia de publicación abierta. Permanecen únicamente en material_original y no se consideran listos para BURJC Digital.
+
+Trabajo pendiente:
+Para cada imagen o elemento de terceros se documentarán la sesión y diapositiva, la fuente original, la autoría, la licencia o base jurídica de uso y la atribución que debe incorporarse al documento final.

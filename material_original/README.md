@@ -1,7 +1,7 @@
 # Material original de trabajo
 
-Este repositorio es **público**. Por seguridad, el contenido de esta carpeta está ignorado por Git salvo este documento y los archivos `.gitkeep` que conservan la estructura.
+Este repositorio es **público**. Git ignora por defecto los nuevos contenidos añadidos dentro de esta carpeta, salvo los documentos de control y los archivos `.gitkeep`. Los materiales actualmente versionados se incorporaron de forma deliberada para organizar la asignatura.
 
-No deben subirse aquí artículos, capítulos, imágenes, conjuntos de datos, presentaciones u otros materiales de terceros que no puedan redistribuirse públicamente. Los originales de trabajo no publicables deben conservarse únicamente en una copia local o en un almacenamiento privado autorizado.
+No deben añadirse artículos, capítulos, imágenes, conjuntos de datos, presentaciones u otros materiales de terceros que no puedan redistribuirse públicamente. Antes de trasladar un material a `material_abierto/` deben comprobarse su autoría, derechos, licencia, citas y atribuciones.
 
-Los materiales destinados a publicación deben copiarse y depurarse en `material_abierto/`, incluyendo las licencias, citas y atribuciones correspondientes.
+La organización sigue los seis temas de la guía docente oficial. El inventario actualizado se mantiene en `INVENTARIO_MATERIALES.md`.
