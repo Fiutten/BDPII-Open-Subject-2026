@@ -4,8 +4,10 @@
 
 - Tema 2: enunciados de Apache Kafka y Spark Structured Streaming.
 - Tema 4: tres colecciones de ejercicios, una por sesión.
+- Tema 5: ejercicio de seguimiento Text-to-SQL con Spark y LangGraph.
+- Proyecto final: actividad evaluable transversal sobre el temario completo, separada del tema 5.
 
-Los PDF se conservan en `material_original/practica/` y las fuentes DOCX en `material_original/fuentes/practica/`.
+Los PDF se conservan en `material_original/practica/` y las fuentes DOCX disponibles en `material_original/fuentes/practica/`. El ejercicio del tema 5 es un paquete de código autocontenido y se conserva en `material_original/programas/`.
 
 ## Estado
 

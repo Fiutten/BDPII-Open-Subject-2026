@@ -12,4 +12,4 @@ La guía docente oficial utilizada como referencia permanece en `material_origin
 
 ## Alcance
 
-La guía de estudio cubre los seis temas del programa oficial, los resultados de aprendizaje, una secuencia de quince unidades de trabajo y la relación con el sistema de evaluación. Los temas 5 y 6 están incluidos en el itinerario, aunque sus presentaciones y fuentes editables aún no se han incorporado al repositorio.
+La guía de estudio cubre los seis temas del programa oficial, los resultados de aprendizaje, una secuencia de quince unidades de trabajo y la relación con el sistema de evaluación. Distingue expresamente el contenido del tema 5, su ejercicio de seguimiento y la práctica final transversal.

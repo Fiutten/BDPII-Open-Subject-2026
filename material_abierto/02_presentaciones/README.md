@@ -6,10 +6,10 @@
 - Tema 2: dos presentaciones, Apache Kafka y Spark Structured Streaming.
 - Tema 3: una presentación sobre optimización y escalabilidad.
 - Tema 4: tres presentaciones sobre prompting/post-training, RAG y agentes.
-- Tema 5: una presentación sobre proyectos integrados.
-- Tema 6: una presentación sobre tendencias y futuro.
+- Tema 5: una presentación sobre proyectos integrados y análisis automatizado.
+- Tema 6: una presentación sobre tendencias y futuro del procesamiento masivo de datos en el deporte.
 
-Los PDF se conservan en `material_original/teoria/` y sus fuentes en `material_original/fuentes/teoria/`.
+Los PDF se conservan en `material_original/teoria/` y las fuentes en `material_original/fuentes/teoria/`. Las fuentes LaTeX de los temas 5 y 6 son reconstrucciones a partir de los PDF y no deben presentarse como originales de autor.
 
 ## Estado
 

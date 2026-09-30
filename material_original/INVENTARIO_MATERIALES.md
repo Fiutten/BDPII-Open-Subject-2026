@@ -14,7 +14,7 @@ Curso 2026-2027
 
 ## Estado de las aportaciones
 
-Están incorporados los temas 1 a 6. Las fuentes LaTeX de los temas 5 y 6 se han reconstruido a partir de sus PDF.
+Están incorporadas las presentaciones de los seis temas. Las fuentes LaTeX de los temas 5 y 6 se han reconstruido a partir de sus PDF y no son los originales de autor. También se han incorporado un ejercicio de seguimiento del tema 5 y la práctica final transversal, con su fuente DOCX.
 
 ## Material institucional
 
@@ -107,25 +107,38 @@ Las tres fuentes LaTeX, el estilo Beamer y todas sus imágenes están extraídos
 
 Los cinco programas superan la comprobación sintáctica de Python. Todavía deben revisarse su documentación, datos de ejemplo, licencia y ejecución reproducible antes de publicarlos como categoría 6.
 
-## Tema 5 - Proyectos integrados
+## Tema 5 - Proyectos integrados: del dato en tiempo real al análisis automatizado
 
 ### Presentación
 
-- `teoria/Tema_05_Proyecto_Integrado/BDPII_Tema_05_Proyecto_Integrado.pdf`: 46 diapositivas. Subtítulo: «Del dato en tiempo real al análisis automatizado».
+- `teoria/Tema_05_Proyecto_Integrado/BDPII_Tema_05_Proyecto_Integrado.pdf`: 46 diapositivas sobre arquitecturas integradas, Kafka y Spark, flujos agénticos, RAG multimodal, narrativas e interfaces conversacionales.
 
 ### Fuente
 
 - `fuentes/teoria/Tema_05_Proyecto_Integrado/BDPII_Tema_05_Proyecto_Integrado.tex`, estilo Beamer y logotipos. Fuente reconstruida a partir del PDF: reproduce su texto diapositiva a diapositiva, pero no es el original de los autores.
 
+### Ejercicio de seguimiento
+
+- `programas/Tema_05_Proyecto_Integrado/Ejercicio_Text_to_SQL_Spark_LangGraph/`: paquete extraído de `practice_ch5.zip` para construir un agente Text-to-SQL con Spark y LangGraph.
+- El paquete contiene `README.md`, `agent.py`, `main.py`, `generate_data.py`, dependencias y ficheros de configuración. Los datos se generan localmente siguiendo sus instrucciones.
+- `practica/Tema_05_Proyecto_Integrado/README.md` documenta su localización y evita confundirlo con la práctica final.
+
 ## Tema 6 - Tendencias y futuro
 
 ### Presentación
 
-- `teoria/Tema_06_Tendencias_Futuro/BDPII_Tema_06_Tendencias_Futuro.pdf`: 40 diapositivas. Subtítulo: «Procesamiento Masivo de Datos e IA en el Deporte».
+- `teoria/Tema_06_Tendencias_Futuro/BDPII_Tema_06_Tendencias_Futuro.pdf`: 40 diapositivas sobre edge computing, 5G, visión artificial, analítica prescriptiva, tecnologías emergentes y gobernanza de datos.
 
 ### Fuente
 
 - `fuentes/teoria/Tema_06_Tendencias_Futuro/BDPII_Tema_06_Tendencias_Futuro.tex`, estilo Beamer y logotipos. Fuente reconstruida a partir del PDF: reproduce su texto diapositiva a diapositiva, pero no es el original de los autores.
+
+## Práctica final - actividad evaluable transversal
+
+- `practica/Proyecto_Final/BDPII_Proyecto_Final.pdf`: enunciado de 10 páginas para desarrollar un sistema de análisis deportivo en tiempo real con Kafka, Spark, RAG y LangGraph.
+- `fuentes/practica/Proyecto_Final/BDPII_Proyecto_Final.docx`: fuente editable correspondiente.
+
+La práctica final cubre el temario completo y se mantiene fuera de `Tema_05_Proyecto_Integrado`. La coincidencia temática con la integración tecnológica del tema 5 no convierte la actividad evaluable en el contenido de ese tema.
 
 ## Autoría y procedencia
 
@@ -135,4 +148,4 @@ Los metadatos de los tres DOCX de ejercicios indican que su última modificació
 
 ## Estado de publicación
 
-Ninguno de estos archivos se considera todavía versión definitiva para BURJC Digital. Antes de copiarlos a `material_abierto/` deben completarse la auditoría de fuentes e imágenes, el licenciamiento, las atribuciones y la revisión de los materiales pendientes.
+Ninguno de estos archivos se considera todavía versión definitiva para BURJC Digital. Antes de copiarlos a `material_abierto/` deben completarse la auditoría de fuentes e imágenes, el licenciamiento, las atribuciones y la revisión editorial.

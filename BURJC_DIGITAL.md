@@ -23,15 +23,17 @@ Se ha incorporado y organizado:
 - la guía docente oficial del curso 2026-2027;
 - el bloque del tema 4 sobre IA generativa: tres presentaciones, tres hojas de ejercicios, fuentes editables y ejemplos de código;
 - los temas 1 a 3: cuatro presentaciones con fuentes LaTeX e imágenes, dos enunciados de Kafka y Spark Structured Streaming, notebooks, productor Kafka, entorno Docker y un conjunto de datos simulado;
-- los temas 5 y 6: una presentación cada uno, con fuentes LaTeX reconstruidas a partir de los PDF.
+- el tema 5: una presentación con fuente LaTeX reconstruida y un ejercicio de seguimiento Text-to-SQL con Spark y LangGraph;
+- el tema 6: una presentación con fuente LaTeX reconstruida sobre tendencias, analítica prescriptiva y gobernanza;
+- la práctica final transversal, con PDF y fuente DOCX, claramente separada del contenido del tema 5.
 
 ## Correspondencia provisional con la convocatoria
 
 - Categoría 0: guía de estudio específica preparada, licenciada y revisada visualmente; la guía docente oficial se conserva como referencia institucional.
 - Categoría 1: sin materiales clasificados todavía.
-- Categoría 2: tres presentaciones del bloque de IA generativa, cuatro de los temas 1 a 3 y una de cada uno de los temas 5 y 6, pendientes de auditoría.
-- Categoría 3: tres colecciones de ejercicios y dos enunciados del tema 2, pendientes de consolidación.
-- Categoría 6: cinco programas Python y sus dependencias, tres notebooks, un productor Kafka, un entorno Docker y un conjunto de datos simulado, pendientes de revisión y documentación para uso autónomo.
+- Categoría 2: nueve presentaciones que cubren los seis temas, pendientes de auditoría.
+- Categoría 3: dos enunciados del tema 2, tres colecciones de ejercicios del tema 4, el ejercicio de seguimiento del tema 5 y la práctica final transversal, pendientes de consolidación.
+- Categoría 6: programas y notebooks de los temas 1, 2, 4 y 5, incluido el agente Text-to-SQL con Spark y LangGraph, pendientes de revisión y documentación para uso autónomo.
 - Categoría 8: sin materiales clasificados todavía.
 
 La relación definitiva de categorías se fijará después de completar la auditoría de publicación.

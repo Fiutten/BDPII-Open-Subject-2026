@@ -5,6 +5,7 @@
 - Tema 1: dos notebooks sobre procesamiento directo y streaming.
 - Tema 2: productor Kafka, conjunto de datos simulado, descripción del conjunto, entorno Docker y notebook PySpark.
 - Tema 4: cinco programas Python sobre RAG, workflows y agentes, más sus dependencias.
+- Tema 5: ejercicio autocontenido de agente Text-to-SQL con Spark y LangGraph, con generador de datos, código inicial, dependencias e instrucciones.
 
 Los candidatos permanecen en `material_original/programas/`.
 

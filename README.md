@@ -24,7 +24,7 @@ Repositorio de trabajo para preparar la publicación en abierto de **Big Data Pr
 
 ## Material incorporado
 
-El inventario actual contiene la guía docente oficial, los temas 1 a 6 y una guía de estudio específica preparada como categoría 0.
+El inventario actual contiene la guía docente oficial, materiales teóricos de los seis temas, actividades prácticas y una guía de estudio específica preparada como categoría 0.
 
 Temas 1 a 3 (procesamiento distribuido, Kafka y Spark Structured Streaming, optimización y escalabilidad):
 
@@ -39,10 +39,13 @@ Tema 4:
 - fuentes editables LaTeX e imágenes de las presentaciones, extraídas del paquete original;
 - ejemplos de código para RAG y agentes;
 
-Temas 5 y 6 (proyectos integrados, tendencias y futuro):
+Temas 5 y 6:
 
-- una presentación por tema;
-- fuentes LaTeX reconstruidas a partir de los PDF, sin imágenes de contenido.
+- una presentación de 46 diapositivas para el tema 5, centrada en arquitecturas integradas, análisis automatizado, RAG multimodal y visualización conversacional;
+- un ejercicio de seguimiento del tema 5 para construir un agente Text-to-SQL con Spark y LangGraph;
+- una presentación de 40 diapositivas para el tema 6 sobre tendencias, infraestructura emergente, analítica prescriptiva y gobernanza;
+- fuentes LaTeX reconstruidas a partir de ambos PDF, documentadas como reconstrucciones y no como originales de autor;
+- el enunciado de la práctica final, separado del tema 5 porque es una actividad evaluable transversal que integra el temario completo.
 
 Dentro de `material_original/`, los documentos finales se organizan por temas en `teoria/` y `practica/`; los editables quedan centralizados en `fuentes/`. No se mantienen ZIP redundantes en esta zona de trabajo.
 

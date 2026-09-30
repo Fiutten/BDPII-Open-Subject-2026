@@ -8,13 +8,19 @@ Alcance:
 - Tema 4, sesión 1: Prompt Engineering y Post-training, 54 diapositivas.
 - Tema 4, sesión 2: Retrieval-Augmented Generation (RAG), 30 diapositivas.
 - Tema 4, sesión 3: Sistemas basados en agentes, 36 diapositivas.
-- Temas 5 y 6: presentaciones y fuentes pendientes de incorporación.
+- Tema 5: Proyectos integrados, 46 diapositivas.
+- Tema 6: Tendencias y futuro, 40 diapositivas.
 
 Fuentes editables:
 - material_original/fuentes/teoria/Tema_01_Procesamiento_Big_Data_Distribuido/
 - material_original/fuentes/teoria/Tema_02_Streaming_Tiempo_Real/
 - material_original/fuentes/teoria/Tema_03_Optimizacion_Escalabilidad/
 - material_original/fuentes/teoria/Tema_04_IA_Generativa/
+- material_original/fuentes/teoria/Tema_05_Proyecto_Integrado/
+- material_original/fuentes/teoria/Tema_06_Tendencias_Futuro/
+
+Nota sobre procedencia:
+Las fuentes LaTeX de los temas 5 y 6 se han reconstruido a partir de los PDF disponibles. Se conservan para facilitar la revisión y futura reutilización, pero no deben describirse como los originales de autor.
 
 Estado:
 Los PDF candidatos no incluyen todavía, de forma homogénea, una licencia abierta visible ni una sección final completa de referencias y atribuciones. Permanecen en material_original y no se consideran listos para BURJC Digital.

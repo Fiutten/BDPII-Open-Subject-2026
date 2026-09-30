@@ -310,7 +310,7 @@ doc.add_paragraph(
 add_callout(
     doc,
     "Edición y estado de los materiales",
-    "Esta edición se basa en la guía docente oficial publicada el 7 de julio de 2026 y en los materiales disponibles en el repositorio a 30 de septiembre de 2026. Los temas 5 y 6 forman parte del programa oficial, aunque sus presentaciones y fuentes editables aún están pendientes de incorporación.",
+    "Esta edición se basa en la guía docente oficial publicada el 7 de julio de 2026 y en los materiales disponibles en el repositorio a 30 de septiembre de 2026. Las presentaciones de los seis temas están incorporadas. Las fuentes LaTeX de los temas 5 y 6 son reconstrucciones documentadas a partir de sus PDF, no los originales de autor.",
     LIGHT_BLUE,
 )
 
@@ -320,8 +320,8 @@ rows = [
     ("2", "Streaming en tiempo real", "Kafka · 44; Spark · 60 diapositivas", "2 enunciados; Kafka, Docker, PySpark y datos"),
     ("3", "Optimización y escalabilidad", "Presentación · 36 diapositivas", "Análisis y diseño de pipelines"),
     ("4", "IA generativa", "3 presentaciones · 120 diapositivas", "3 hojas de ejercicios; RAG y agentes"),
-    ("5", "Proyecto integrado", "Material específico pendiente", "Diseño, memoria, implementación y presentación"),
-    ("6", "Tendencias y futuro", "Material específico pendiente", "Análisis crítico, ético y legal"),
+    ("5", "Proyectos integrados", "Presentación · 46 diapositivas", "Ejercicio Text-to-SQL con Spark y LangGraph"),
+    ("6", "Tendencias y futuro", "Presentación · 40 diapositivas", "Análisis crítico, ético y legal"),
 ]
 table = doc.add_table(rows=1, cols=4)
 table.alignment = WD_TABLE_ALIGNMENT.CENTER
@@ -517,29 +517,28 @@ page_break(doc)
 add_topic_page(
     doc,
     5,
-    "Proyecto integrado: del dato en tiempo real al análisis automatizado",
-    "Bloque de síntesis en el que se diseña una arquitectura completa de ingestión, procesamiento, análisis y comunicación de resultados para un problema deportivo.",
+    "Proyectos integrados: del dato en tiempo real al análisis automatizado",
+    "Bloque de integración tecnológica sobre sistemas que combinan ingestión continua, cómputo en streaming, recuperación de información, agentes e interfaces conversacionales. El ejercicio Text-to-SQL aplica estos contenidos; la práctica final es una actividad evaluable transversal sobre el temario completo.",
     [
-        "Integrar streaming, almacenamiento, analítica e IA generativa en una solución coherente.",
-        "Traducir una necesidad de negocio o rendimiento deportivo en requisitos verificables.",
-        "Planificar responsabilidades, interfaces, pruebas, despliegue y observabilidad.",
-        "Comunicar resultados y limitaciones a perfiles técnicos y stakeholders.",
+        "Comprender la transición desde el Business Intelligence retrospectivo hacia la analítica prescriptiva en tiempo real.",
+        "Relacionar Kafka y Spark Structured Streaming dentro de una arquitectura completa de ingestión y procesamiento.",
+        "Explicar cómo los flujos agénticos, las tools y el patrón ReAct conectan lenguaje natural con datos deportivos.",
+        "Analizar el papel de RAG multimodal, la generación de narrativas y las interfaces conversacionales.",
     ],
     [
-        "Guía docente y materiales de los temas 1–4.",
-        "Enunciado, rúbrica y plantillas que publique el equipo docente para el proyecto.",
-        "Material específico del tema 5: pendiente de incorporación al repositorio.",
+        "BDPII_Tema_05_Proyecto_Integrado.pdf · 46 diapositivas.",
+        "Ejercicio Text-to-SQL Agent con LangGraph y Apache Spark: README, código inicial, generador de datos y dependencias.",
+        "Materiales de los temas 1–4 como base conceptual y técnica.",
     ],
     [
-        "Definir problema, usuarios, decisión que debe apoyar el sistema y criterios de aceptación.",
-        "Inventariar fuentes de datos y requisitos de latencia, calidad, privacidad y disponibilidad.",
-        "Diseñar arquitectura, contratos de datos, componentes y flujo de observabilidad.",
-        "Construir un incremento mínimo reproducible y validarlo con datos de ejemplo.",
-        "Evaluar rendimiento, calidad de resultados, fallos previsibles y controles humanos.",
-        "Preparar memoria, demostración y presentación con evidencias y limitaciones explícitas.",
+        "Estudiar el recorrido completo desde la telemetría hasta la decisión y representar los componentes del sistema.",
+        "Revisar particiones, semántica exactly-once, estado y watermarks en la integración Kafka-Spark.",
+        "Comparar workflows deterministas y agentes que consultan datos mediante tools.",
+        "Analizar cómo RAG multimodal y la generación de narrativas añaden contexto sin sustituir los cálculos deterministas.",
+        "Completar el ejercicio Text-to-SQL: generar los datos, registrar las vistas de Spark y construir el agente ReAct.",
+        "Validar el agente con consultas deportivas y comprobar que las respuestas se apoyan en los datos ejecutados.",
     ],
-    "Mantener un registro de decisiones arquitectónicas y una matriz que conecte requisito, componente, prueba, evidencia y riesgo residual.",
-    ("Disponibilidad", "La ruta de trabajo queda definida por el programa oficial; la presentación y las fuentes propias del tema se añadirán cuando las aporte el equipo docente.", "FFF2CC"),
+    "Elaborar un diagrama razonado del sistema y una memoria breve del ejercicio Text-to-SQL que documente arquitectura, consultas probadas, resultados y límites del agente.",
 )
 
 page_break(doc)
@@ -556,9 +555,9 @@ add_topic_page(
         "Formular recomendaciones técnicas justificadas con fuentes fiables y actuales.",
     ],
     [
+        "BDPII_Tema_06_Tendencias_Futuro.pdf · 40 diapositivas.",
         "Guía docente oficial y bibliografía básica y complementaria.",
         "Documentación técnica oficial y literatura científica seleccionada por el equipo docente.",
-        "Material específico del tema 6: pendiente de incorporación al repositorio.",
     ],
     [
         "Seleccionar una tendencia relevante para el análisis deportivo y delimitar el problema que pretende resolver.",
@@ -568,7 +567,6 @@ add_topic_page(
         "Preparar una recomendación de adopción, piloto limitado o rechazo razonado.",
     ],
     "Elaborar una nota de decisión breve para un responsable deportivo que incluya oportunidad, evidencia, riesgos ético-legales, salvaguardas y próximos pasos.",
-    ("Disponibilidad", "Este itinerario se apoya en el contenido oficial. Las presentaciones y fuentes editables del tema se incorporarán posteriormente sin alterar la secuencia general de la guía.", "FFF2CC"),
 )
 
 page_break(doc)
@@ -613,9 +611,9 @@ add_heading(doc, "4. Planificación orientativa por unidades de trabajo (continu
 units2 = [
     ("9", "T4 · RAG", "Recuperación, chunking, vectores, trazabilidad y evaluación de respuestas."),
     ("10", "T4 · Agentes", "Estados, tools, workflows, costes, seguridad y supervisión humana."),
-    ("11", "T5 · Definición del proyecto", "Problema, stakeholders, requisitos, datos y criterios de aceptación."),
-    ("12", "T5 · Arquitectura e implementación", "Componentes, contratos, prototipo reproducible y pruebas."),
-    ("13", "T5 · Evaluación y comunicación", "Memoria, evidencia, demostración, visualización y presentación."),
+    ("11", "T5 · Arquitectura integrada", "Kafka, Spark, estado, RAG y agentes en un flujo de extremo a extremo."),
+    ("12", "T5 · Text-to-SQL", "Datos sintéticos, vistas Spark SQL, tools y construcción del agente ReAct."),
+    ("13", "T5 · Narrativas e interfaces", "RAG multimodal, validación de respuestas y visualización conversacional."),
     ("14", "T6 · Tendencias", "Fuentes fiables, madurez, integración, predicción y prescripción."),
     ("15", "T6 · Ética, legalidad y síntesis", "Privacidad, equidad, responsabilidad, límites y decisión final."),
 ]
@@ -647,7 +645,7 @@ add_bullets(doc, [
 
 add_heading(doc, "Trabajo en equipo", 2)
 doc.add_paragraph(
-    "En prácticas y proyecto se recomienda distribuir responsabilidades sin fragmentar el conocimiento: cada integrante debe poder explicar el problema, la arquitectura, los datos, el código, las pruebas, los resultados y las limitaciones."
+    "En las prácticas y en el proyecto final se recomienda distribuir responsabilidades sin fragmentar el conocimiento: cada integrante debe poder explicar el problema, la arquitectura, los datos, el código, las pruebas, los resultados y las limitaciones."
 )
 
 page_break(doc)
@@ -655,7 +653,7 @@ page_break(doc)
 # Assessment.
 add_heading(doc, "5. Relación con la evaluación", 1)
 doc.add_paragraph(
-    "La evaluación oficial es continua. La guía docente establece tres componentes revaluables y exige una nota mínima de 5 en cada actividad. Las fechas concretas y cualquier ajuste deberán confirmarse siempre en Aula Virtual y con el equipo docente."
+    "La evaluación oficial es continua. La guía docente establece tres componentes revaluables y exige una nota mínima de 5 en cada actividad. El proyecto final evalúa el temario completo y no constituye el contenido del tema 5. Las fechas concretas y cualquier ajuste deberán confirmarse siempre en Aula Virtual y con el equipo docente."
 )
 eval_rows = [
     ("Prácticas 1 y 2", "40 %", "P1: temas 1–3 · P2: temas 4–6", "Memoria y código", "Semanas 5 y 10"),
@@ -708,11 +706,11 @@ doc.add_paragraph(
 repo_rows = [
     ("Guía docente", "material_original/guias", "Referencia institucional", "Disponible"),
     ("Guía de estudio", "material_abierto/00_guias", "Categoría 0", "Disponible"),
-    ("Presentaciones", "material_original/teoria", "Candidatas a categoría 2", "Temas 1–4; auditoría pendiente"),
-    ("Fuentes de teoría", "material_original/fuentes/teoria", "Editables", "Temas 1–4; temas 5–6 pendientes"),
-    ("Prácticas", "material_original/practica", "Candidatas a categoría 3", "Temas 2 y 4"),
-    ("Fuentes de práctica", "material_original/fuentes/practica", "Editables", "Temas 2 y 4"),
-    ("Código y notebooks", "material_original/programas", "Candidatos a categoría 6", "Temas 1, 2 y 4; revisión pendiente"),
+    ("Presentaciones", "material_original/teoria", "Candidatas a categoría 2", "Temas 1–6; auditoría pendiente"),
+    ("Fuentes de teoría", "material_original/fuentes/teoria", "Editables", "Temas 1–6; las de T5–T6 son reconstrucciones desde PDF"),
+    ("Prácticas", "material_original/practica", "Candidatas a categoría 3", "Temas 2, 4 y 5; proyecto final separado"),
+    ("Fuentes de práctica", "material_original/fuentes/practica", "Editables", "Temas 2 y 4; proyecto final"),
+    ("Código y notebooks", "material_original/programas", "Candidatos a categoría 6", "Temas 1, 2, 4 y 5; revisión pendiente"),
 ]
 table = doc.add_table(rows=1, cols=4)
 table.style = "Table Grid"
@@ -740,11 +738,8 @@ add_bullets(doc, [
     "Los editables y el software requieren documentación suficiente para reutilización autónoma.",
     "Solo las copias validadas pasarán al paquete definitivo de BURJC Digital.",
 ])
-add_callout(
-    doc,
-    "Actualización prevista",
-    "Cuando se incorporen los materiales de los temas 5 y 6 se actualizarán el mapa de materiales y las actividades concretas, manteniendo los objetivos y la secuencia derivados de la guía docente.",
-    LIGHT_BLUE,
+doc.add_paragraph(
+    "Los PDF de los seis temas y el enunciado de la práctica final están incorporados. Las fuentes de los temas 5 y 6 son reconstrucciones desde PDF y están identificadas como tales. Continúa pendiente la auditoría previa a la publicación abierta."
 )
 
 page_break(doc)
