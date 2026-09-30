@@ -35,7 +35,7 @@ Permanecen pendientes las presentaciones y fuentes editables de los temas 5 y 6.
 - Categoría 6: cinco programas Python y sus dependencias, tres notebooks, un productor Kafka, un entorno Docker y un conjunto de datos simulado, pendientes de revisión y documentación para uso autónomo.
 - Categoría 8: sin materiales clasificados todavía.
 
-La relación definitiva de categorías se fijará después de incorporar las tres partes de la asignatura.
+La relación definitiva de categorías se fijará después de incorporar los materiales pendientes de los temas 5 y 6 y completar la auditoría de publicación.
 
 ## Lista de control
 
