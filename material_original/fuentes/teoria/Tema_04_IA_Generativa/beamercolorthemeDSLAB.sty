@@ -1,0 +1,78 @@
+% Based on beamercolorthememcgill.sty
+
+%\ProvidesPackageRCS $Header: beamercolorthemeDSLAB.sty,v 1.5 2004/10/07 22:21:15 tantau Exp $
+
+% Copyright 2003 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% This program can be redistributed and/or modified under the terms
+% of the GNU Public License, version 2.
+
+\mode<presentation>
+
+\definecolor{gray1}{RGB}{220,220,220}
+\definecolor{gray2}{RGB}{180,180,180}
+\definecolor{colorblue}{RGB}{68,120,189}
+
+\definecolor{colortitlebarslide}{RGB}{68,120,189}
+\definecolor{colortitleslide}{RGB}{250,250,250}
+\definecolor{colortextblock}{RGB}{5,5,145} 
+\definecolor{colorbg}{RGB}{255,255,255}
+
+\setbeamercolor{normal text}{fg=black,bg=colorbg}
+\setbeamercolor{structure}{fg=colortitlebarslide}
+
+\definecolor{devryblue}{RGB}{245,250,255}       
+\setbeamercolor{background canvas}{bg=devryblue}
+
+\setbeamercolor{alerted text}{fg=blue!85!black}
+
+\setbeamercolor{item projected}{use=item,fg=white,bg=colortitlebarslide}
+
+\setbeamercolor*{palette primary}{fg=colortitleslide,bg=colortitlebarslide}
+\setbeamercolor*{palette secondary}{fg=colortitleslide,bg=colortitlebarslide}
+\setbeamercolor*{palette tertiary}{fg=black!100!blue}
+\setbeamercolor*{palette quaternary}{fg=black!1!blue}
+
+\setbeamercolor*{sidebar}{parent=palette primary}
+
+\setbeamercolor*{palette sidebar primary}{fg=colortitlebarslide}
+\setbeamercolor*{palette sidebar secondary}{fg=blue}
+\setbeamercolor*{palette sidebar tertiary}{fg=colortitlebarslide}
+\setbeamercolor*{palette sidebar quaternary}{fg=blue}
+
+\setbeamercolor{framesubtitle}{fg=blue}
+
+\setbeamercolor*{subtitle}{fg=colortitleslide}
+
+\setbeamercolor*{block title}{fg=colortextblock}
+\setbeamercolor*{block title alerted}{parent=alerted text}
+\setbeamercolor*{block title example}{parent=example text}
+\setbeamercolor*{block body}{}
+\setbeamercolor*{block body alerted}{}
+\setbeamercolor*{block body example}{}
+
+\setbeamercolor*{titlelike}{parent=palette secondary}
+
+\setbeamercolor*{author in head/foot}{fg=gray1,bg=colorblue}
+\setbeamercolor*{title in head/foot}{fg=colorblue,bg=gray1}
+\setbeamercolor*{date in head/foot}{fg=black,bg=gray2}
+
+\setbeamercolor*{section in head/foot}{parent=palette tertiary}
+\setbeamercolor*{subsection in head/foot}{parent=palette primary}
+
+\defbeamertemplate*{frametitle}{smoothtree theme}
+{%
+  \nointerlineskip%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=1cm,leftskip=.5cm,rightskip=.3cm]{frametitle}
+    \usebeamerfont*{frametitle}\raisebox{0.6ex}{\insertframetitle}\hfill\raisebox{-0.6ex}{\includegraphics[width=.9cm]{./images/logos/MUSA_LOGO_blanco.jpg}}
+        \par\vskip-1.7ex{\usebeamerfont*{framesubtitle}{\usebeamercolor[fg]{framesubtitle}\insertframesubtitle}\strut\par}%
+    \usebeamerfont{headline}%
+    \vskip.5ex
+  \end{beamercolorbox}%
+  \nointerlineskip
+
+}
+
+
+\mode
+<all>

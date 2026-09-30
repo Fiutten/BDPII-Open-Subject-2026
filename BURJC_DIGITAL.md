@@ -22,7 +22,6 @@ Se ha incorporado y organizado:
 
 - la guía docente oficial del curso 2026-2027;
 - el bloque del tema 4 sobre IA generativa: tres presentaciones, tres hojas de ejercicios, fuentes editables y ejemplos de código;
-- una práctica final que integra Kafka, Spark, RAG y LangGraph;
 - los temas 1 a 3: cuatro presentaciones con fuentes LaTeX e imágenes, dos enunciados de Kafka y Spark Structured Streaming, notebooks, productor Kafka, entorno Docker y un conjunto de datos simulado.
 
 Permanece pendiente la parte de la asignatura que aportará Rubén Rodríguez Fernández.
@@ -32,7 +31,7 @@ Permanece pendiente la parte de la asignatura que aportará Rubén Rodríguez Fe
 - Categoría 0: falta preparar la guía de estudio específica; la guía docente oficial se conserva como referencia.
 - Categoría 1: sin materiales clasificados todavía.
 - Categoría 2: tres presentaciones del bloque de IA generativa y cuatro de los temas 1 a 3, pendientes de auditoría.
-- Categoría 3: tres colecciones de ejercicios, dos enunciados del tema 2 y una práctica final, pendientes de consolidación.
+- Categoría 3: tres colecciones de ejercicios y dos enunciados del tema 2, pendientes de consolidación.
 - Categoría 6: cinco programas Python y sus dependencias, tres notebooks, un productor Kafka, un entorno Docker y un conjunto de datos simulado, pendientes de revisión y documentación para uso autónomo.
 - Categoría 8: sin materiales clasificados todavía.
 

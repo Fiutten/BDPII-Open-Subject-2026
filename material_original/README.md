@@ -4,4 +4,15 @@ Este repositorio es **público**. Git ignora por defecto los nuevos contenidos a
 
 No deben añadirse artículos, capítulos, imágenes, conjuntos de datos, presentaciones u otros materiales de terceros que no puedan redistribuirse públicamente. Antes de trasladar un material a `material_abierto/` deben comprobarse su autoría, derechos, licencia, citas y atribuciones.
 
-La organización sigue los seis temas de la guía docente oficial. El inventario actualizado se mantiene en `INVENTARIO_MATERIALES.md`.
+## Organización
+
+- `guias/`: documentación institucional.
+- `teoria/Tema_XX_.../`: versiones PDF de las presentaciones, separadas por tema.
+- `practica/Tema_XX_.../`: versiones PDF de enunciados y ejercicios, separadas por tema.
+- `programas/Tema_XX_.../`: notebooks, programas, datos y entornos de ejecución.
+- `fuentes/teoria/Tema_XX_.../`: fuentes LaTeX, estilos e imágenes de las presentaciones.
+- `fuentes/practica/Tema_XX_.../`: fuentes editables DOCX de enunciados y ejercicios.
+
+Los nombres de directorios y ficheros emplean numeración de dos dígitos para conservar el orden temático. Los comprimidos originales se extraen y sus contenidos se clasifican; no se mantienen copias ZIP redundantes dentro de `material_original/`.
+
+El inventario actualizado se mantiene en `INVENTARIO_MATERIALES.md`.
