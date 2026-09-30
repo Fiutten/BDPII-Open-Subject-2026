@@ -1,0 +1,16 @@
+[project]
+name = "practice-ch5"
+version = "0.1.0"
+description = "Student practice exercise: Text-to-SQL agent with LangGraph and Apache Spark"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-core==0.3.28",
+    "langchain-ollama>=0.2.2",
+    "langchain-openai>=0.2.14",
+    "langgraph==0.2.62",
+    "pandas==2.2.0",
+    "pyspark==3.5.0",
+    "python-dotenv>=1.0.0",
+    "setuptools>=82.0.1",
+]

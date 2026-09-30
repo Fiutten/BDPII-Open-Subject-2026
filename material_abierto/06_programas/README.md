@@ -1,23 +1,25 @@
-# Categoría 6 - Programas y notebooks
+# Programas de ordenador de Big Data Processing II
 
-## Candidatos localizados
+Material docente en abierto de la Universidad Rey Juan Carlos.
 
-- Tema 1: dos notebooks sobre procesamiento directo y streaming.
-- Tema 2: productor Kafka, conjunto de datos simulado, descripción del conjunto, entorno Docker y notebook PySpark.
-- Tema 4: cinco programas Python sobre RAG, workflows y agentes, más sus dependencias.
-- Tema 5: ejercicio autocontenido de agente Text-to-SQL con Spark y LangGraph, con generador de datos, código inicial, dependencias e instrucciones.
+- Asignatura: Big Data Processing II
+- Titulación: Máster Universitario en Análisis de Datos Deportivos
+- Curso: 2026-2027
+- Autores: Alberto Fernández Isabel, Natalia Madrueño Sierro, Rubén Rodríguez Fernández
+- Repositorio público: https://github.com/Fiutten/BDPII-Open-Subject-2026
+- Depósito institucional: https://burjcdigital.urjc.es
+- Licencia del código: MIT
 
-Los candidatos permanecen en `material_original/programas/`.
+## Contenido
 
-## Estado
+El directorio `codigo/` reúne programas y notebooks de los temas 1, 2, 4 y 5. Incluye ejemplos de procesamiento directo y streaming, productor Kafka, entorno Spark, ejercicios RAG y de agentes y una práctica Text-to-SQL con Spark y LangGraph.
 
-Antes de su publicación deben:
+Cada bloque conserva sus dependencias e instrucciones. Los archivos `.env` con credenciales no se distribuyen; solo se incluye `.env.example` cuando procede.
 
-1. incorporar licencia de software compatible;
-2. disponer de `README.md` con instalación, ejecución, entradas, salidas y ejemplos;
-3. separar claramente plantillas, soluciones y datos;
-4. eliminar secretos o dependencias no reproducibles;
-5. superar validaciones sintácticas y, cuando el entorno lo permita, pruebas de ejecución;
-6. prepararse para archivo en un repositorio público y obtención del SWHID exacto, si se presenta la categoría.
+## Software Heritage
 
-No se ha creado todavía una copia en esta carpeta para evitar publicar como definitivo código sin documentación suficiente.
+La versión candidata se archivará en Software Heritage cuando se cierre el conjunto de materiales. El SWHID verificado se incorporará a este documento y a la descripción del depósito antes de la entrega a BURJC Digital.
+
+## Uso de herramientas generativas
+
+Se utilizaron herramientas generativas de texto como apoyo editorial para organizar el repositorio, normalizar documentación y comprobar coherencia. No sustituyeron el diseño docente ni la revisión técnica del código. Todo el contenido publicado ha sido revisado y validado por el equipo autor, que asume plena responsabilidad sobre la versión final.

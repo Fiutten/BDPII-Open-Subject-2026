@@ -11,6 +11,8 @@ from docx.shared import Cm, Inches, Pt, RGBColor
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "material_original" / "fuentes" / "guias" / "Guia_de_estudio_Big_Data_Processing_II_2026-2027.docx"
+OPEN_OUT = ROOT / "material_abierto" / "00_guias" / "editables" / "Guia_de_estudio_Big_Data_Processing_II_2026-2027.docx"
+CC_BADGE = ROOT / "material_abierto" / "assets" / "cc_by_sa_4_0.png"
 
 NAVY = "17365D"
 BLUE = "1F4E79"
@@ -295,6 +297,38 @@ p2 = cell.add_paragraph()
 p2.alignment = WD_ALIGN_PARAGRAPH.CENTER
 p2.add_run("Licencia: ")
 add_hyperlink(p2, "Creative Commons Atribución–CompartirIgual 4.0 Internacional (CC BY-SA 4.0)", "https://creativecommons.org/licenses/by-sa/4.0/deed.es")
+p3 = cell.add_paragraph()
+p3.alignment = WD_ALIGN_PARAGRAPH.CENTER
+p3.add_run("Depósito institucional: ")
+add_hyperlink(p3, "BURJC Digital", "https://burjcdigital.urjc.es")
+
+if CC_BADGE.exists():
+    badge = doc.add_paragraph()
+    badge.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    badge.add_run().add_picture(str(CC_BADGE), width=Inches(2.05))
+
+page_break(doc)
+
+add_heading(doc, "Información de publicación", 1)
+doc.add_paragraph("Material docente en abierto de la Universidad Rey Juan Carlos.")
+doc.add_paragraph(
+    "© 2026 Alberto Fernández Isabel, Natalia Madrueño Sierro y Rubén Rodríguez Fernández. "
+    "Algunos derechos reservados. Esta obra se distribuye bajo la licencia Creative Commons "
+    "Atribución–CompartirIgual 4.0 Internacional, disponible en "
+    "https://creativecommons.org/licenses/by-sa/4.0/deed.es."
+)
+doc.add_paragraph(
+    "La licencia se aplica al contenido original de la obra. Los logotipos, marcas y materiales de terceros "
+    "conservan su régimen jurídico propio y quedan excluidos de la licencia, salvo indicación expresa."
+)
+add_heading(doc, "Declaración sobre herramientas de inteligencia artificial generativa", 2)
+doc.add_paragraph(
+    "En la preparación de esta guía se emplearon herramientas generativas de texto como apoyo para la "
+    "organización editorial, la redacción inicial de determinados textos de enlace y la comprobación de "
+    "coherencia. No se utilizaron para sustituir el diseño docente, los contenidos técnicos de las "
+    "presentaciones ni la autoría de los ejercicios. Todo el contenido ha sido revisado, editado, validado "
+    "y aprobado por el equipo autor, que asume plena responsabilidad sobre la versión final."
+)
 
 page_break(doc)
 
@@ -636,6 +670,48 @@ for idx, row in enumerate(units2):
         for run in cells[i].paragraphs[0].runs:
             run.font.size = Pt(9)
 
+session_plan = [
+    ("1", "Tema 1", "Del procesamiento por lotes al streaming; valor temporal del dato.", "Presentación del tema 1, diapositivas 1–18.", "Distinguir batch, microbatch y streaming y relacionarlos con decisiones deportivas.", "Mapa conceptual y discusión de un caso de monitorización en vivo.", "Resumir requisitos de latencia, consistencia y disponibilidad del caso elegido."),
+    ("2", "Tema 1", "Mensajería, motores distribuidos y arquitecturas Lambda y Kappa.", "Presentación del tema 1, diapositivas 19–66; notebook streaming.ipynb.", "Comparar alternativas de arquitectura y justificar sus compromisos.", "Inspección del notebook y diseño de una arquitectura de alto nivel.", "Completar el notebook y redactar una decisión arquitectónica razonada."),
+    ("3", "Tema 2", "Fundamentos de Kafka: broker, topics, particiones y offsets.", "Presentación Apache Kafka; documentación oficial de Apache Kafka.", "Explicar el recorrido de un evento y la función de cada componente.", "Representación del flujo productor-broker-consumidor.", "Preparar un esquema de topics, claves y particiones para telemetría deportiva."),
+    ("4", "Tema 2", "Productores, consumidores, grupos, replicación y tolerancia a fallos.", "Presentación Apache Kafka; enunciado Kafka; producer.py y datos de sensores.", "Construir una ingesta reproducible y analizar escalabilidad y fallos.", "Ejecución guiada del productor y resolución del enunciado.", "Documentar configuración, pruebas, resultados y tratamiento de errores."),
+    ("5", "Tema 2", "Spark Structured Streaming: DataFrames, ventanas, estado y watermarks.", "Presentación Spark Structured Streaming; enunciado; docker-compose.yml y notebook PySpark.", "Procesar eventos con semántica temporal y manejar datos tardíos.", "Construcción de consultas, ventanas y agregaciones sobre Kafka.", "Completar el notebook y comparar modos de salida y políticas de watermark."),
+    ("6", "Tema 3", "Diagnóstico de rendimiento: particionado, shuffle, skew y serialización.", "Presentación del tema 3; pipelines desarrollados en los temas 1 y 2.", "Identificar cuellos de botella a partir de evidencias y métricas.", "Lectura de planes de ejecución y formulación de hipótesis.", "Elaborar una ficha de diagnóstico con línea base y criterio de éxito."),
+    ("7", "Tema 3", "Optimización, recursos, observabilidad y despliegue.", "Presentación del tema 3; interfaces de monitorización de Spark y Kafka.", "Proponer mejoras medibles y distinguir opciones locales y cloud.", "Experimento controlado con un cambio aislado.", "Comparar resultados y justificar coste, latencia y mantenibilidad."),
+    ("8", "Tema 4", "Prompt engineering y límites de los modelos de lenguaje.", "Presentación sesión 1; hoja de ejercicios de prompting.", "Diseñar prompts evaluables y reconocer límites y riesgos.", "Revisión de prompts y definición de criterios de calidad.", "Resolver los ejercicios y registrar iteraciones, fallos y mejoras."),
+    ("9", "Tema 4", "RAG: ingesta, fragmentación, embeddings, recuperación y respuesta.", "Presentación sesión 2; ejercicios; RAG_1.py y RAG_1_comentado.py.", "Construir un flujo RAG trazable y evaluar recuperación y respuesta.", "Ejecución y análisis del ejemplo RAG con corpus deportivo.", "Comparar configuraciones de recuperación y documentar evidencias y límites."),
+    ("10", "Tema 4", "Agentes, tools, skills, estado y supervisión humana.", "Presentación sesión 3; ejercicios; programas de workflows y agentes.", "Distinguir workflow y agente y controlar coste, seguridad y bucles.", "Comparación de flujo lineal y flujo agéntico.", "Implementar una variante controlada y justificar guardas y criterios de parada."),
+    ("11", "Tema 5", "Arquitectura integrada Kafka-Spark-RAG-agentes.", "Presentación del tema 5; materiales de los temas 1 a 4.", "Integrar ingestión, cómputo, recuperación y decisión en un sistema coherente.", "Diseño de un diagrama de extremo a extremo.", "Documentar contratos, estado, observabilidad y puntos de validación humana."),
+    ("12", "Tema 5", "Agente Text-to-SQL con Spark y LangGraph.", "README, agent.py, main.py y generate_data.py del ejercicio Text-to-SQL.", "Conectar lenguaje natural con consultas SQL ejecutadas sobre datos deportivos.", "Generación de datos, registro de vistas y construcción de tools.", "Completar los TODO, probar consultas y conservar evidencias de ejecución."),
+    ("13", "Tema 5", "RAG multimodal, narrativas e interfaces conversacionales.", "Presentación del tema 5; resultado del ejercicio Text-to-SQL.", "Separar cálculo determinista, recuperación, inferencia y generación narrativa.", "Diseño de una respuesta trazable para distintos perfiles de usuario.", "Preparar una memoria breve con resultados, limitaciones y riesgos del sistema."),
+    ("14", "Tema 6", "Tecnologías emergentes, predicción y prescripción.", "Presentación del tema 6; documentación técnica y literatura seleccionada.", "Evaluar madurez, ajuste al problema e impacto de una tendencia tecnológica.", "Análisis comparativo de una tendencia aplicada al deporte.", "Contrastar una fuente técnica primaria y una referencia científica."),
+    ("15", "Tema 6", "Ética, privacidad, legalidad, gobernanza y síntesis.", "Presentación del tema 6; guía docente; normativa y documentación institucional.", "Formular recomendaciones responsables y justificar salvaguardas.", "Debate y elaboración de una nota de decisión final.", "Entregar una síntesis con oportunidad, evidencia, riesgos y próximos pasos."),
+]
+
+page_break(doc)
+add_heading(doc, "4.1 Calendario detallado por sesión", 1)
+doc.add_paragraph(
+    "La secuencia siguiente concreta, para cada sesión orientativa, los contenidos, los materiales, los objetivos, "
+    "la actividad prevista y el trabajo personal. Las fechas exactas se ajustarán al calendario oficial y a las "
+    "indicaciones publicadas en Aula Virtual."
+)
+for idx, (number, topic, contents, materials, objectives, activity, personal) in enumerate(session_plan):
+    if idx and idx % 3 == 0:
+        page_break(doc)
+        add_heading(doc, "4.1 Calendario detallado por sesión", 1)
+    add_heading(doc, f"Sesión {number}  {topic}", 2)
+    for label, value in (
+        ("Contenidos", contents),
+        ("Materiales", materials),
+        ("Objetivos de aprendizaje", objectives),
+        ("Actividad planificada", activity),
+        ("Trabajo personal recomendado", personal),
+    ):
+        paragraph = doc.add_paragraph()
+        paragraph.paragraph_format.space_after = Pt(2)
+        paragraph.add_run(f"{label}: ").bold = True
+        paragraph.add_run(value)
+
 add_heading(doc, "Uso de tutorías", 2)
 add_bullets(doc, [
     "Llevar una pregunta concreta, el contexto mínimo y la evidencia del intento realizado.",
@@ -782,4 +858,7 @@ add_callout(
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
 doc.save(OUT)
+OPEN_OUT.parent.mkdir(parents=True, exist_ok=True)
+doc.save(OPEN_OUT)
 print(OUT)
+print(OPEN_OUT)

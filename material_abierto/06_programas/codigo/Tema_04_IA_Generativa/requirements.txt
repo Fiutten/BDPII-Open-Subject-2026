@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-openai
+langchain-text-splitters
+chromadb
+sentence-transformers
+transformers
+torch
+tiktoken
+python-dotenv
+pydantic

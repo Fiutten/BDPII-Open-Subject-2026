@@ -51,8 +51,10 @@ Dentro de `material_original/`, los documentos finales se organizan por temas en
 
 El detalle y la procedencia se documentan en `material_original/INVENTARIO_MATERIALES.md`.
 
-## Criterios de publicación
+## Edición abierta y entrega
 
-Este repositorio es público. Los materiales permanecen en `material_original/` hasta completar la revisión de autoría, derechos, licencias, fuentes y atribuciones. Solo después se copiarán y adaptarán en `material_abierto/`. La guía de estudio ya ha superado esta revisión y está disponible en `material_abierto/00_guias/`.
+La edición revisada se encuentra en `material_abierto/` y presenta las categorías 0, 2, 3 y 6. Los documentos se publican bajo CC BY-SA 4.0 y el código bajo MIT. Los logotipos y marcas institucionales quedan expresamente fuera de la licencia. Las imágenes de la versión de trabajo cuya reutilización no podía acreditarse se han retirado de la edición abierta y sustituido por esquemas originales.
 
-Se mantendrá un único PDF canónico por material, junto con sus fuentes editables cuando proceda. La entrega de BURJC se generará mediante copias, sin mover ni alterar los originales.
+`material_original/` conserva las versiones de trabajo y sus fuentes sin alterarlas. `BURJC/01_SUBIR/` se genera mediante copias de los tres ficheros previstos para el depósito único: libro principal, editables y código. `BURJC/02_APOYO/` contiene metadatos, justificación de criterios, declaraciones y comprobaciones.
+
+El libro y los paquetes se consideran candidatos hasta incorporar el SWHID verificado de la versión pública del software y cerrar los porcentajes de autoría del Anexo V.

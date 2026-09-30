@@ -1,35 +1,10 @@
-INVENTARIO DE FUENTES Y ATRIBUCIONES - EN PREPARACIÓN
+FUENTES, IMÁGENES Y ATRIBUCIONES
 
-Alcance:
-- Tema 1: Procesamiento de Big Data en entornos distribuidos, 66 diapositivas.
-- Tema 2: Apache Kafka, 44 diapositivas.
-- Tema 2: Spark Structured Streaming, 60 diapositivas.
-- Tema 3: Optimización y escalabilidad, 36 diapositivas.
-- Tema 4, sesión 1: Prompt Engineering y Post-training, 54 diapositivas.
-- Tema 4, sesión 2: Retrieval-Augmented Generation (RAG), 30 diapositivas.
-- Tema 4, sesión 3: Sistemas basados en agentes, 36 diapositivas.
-- Tema 5: Proyectos integrados, 46 diapositivas.
-- Tema 6: Tendencias y futuro, 40 diapositivas.
+Edición abierta 2026-2027 de Big Data Processing II.
 
-Fuentes editables:
-- material_original/fuentes/teoria/Tema_01_Procesamiento_Big_Data_Distribuido/
-- material_original/fuentes/teoria/Tema_02_Streaming_Tiempo_Real/
-- material_original/fuentes/teoria/Tema_03_Optimizacion_Escalabilidad/
-- material_original/fuentes/teoria/Tema_04_IA_Generativa/
-- material_original/fuentes/teoria/Tema_05_Proyecto_Integrado/
-- material_original/fuentes/teoria/Tema_06_Tendencias_Futuro/
-
-Nota sobre procedencia:
-Las fuentes LaTeX de los temas 5 y 6 se han reconstruido a partir de los PDF disponibles. Se conservan para facilitar la revisión y futura reutilización, pero no deben describirse como los originales de autor.
-
-Estado:
-Los PDF candidatos no incluyen todavía, de forma homogénea, una licencia abierta visible ni una sección final completa de referencias y atribuciones. Permanecen en material_original y no se consideran listos para BURJC Digital.
-
-Ficha que debe completarse por cada elemento de terceros:
-- tema, presentación y número de diapositiva;
-- descripción del elemento;
-- autor o entidad responsable;
-- URL o referencia de la fuente original;
-- licencia, permiso o base jurídica de uso;
-- texto de atribución que aparecerá en el PDF final;
-- decisión: conservar, sustituir o retirar.
+1. Las referencias bibliográficas, documentación técnica y enlaces utilizados se conservan en el texto de las diapositivas y en la guía de estudio.
+2. Las imágenes docentes de la versión de trabajo cuya licencia de reutilización no pudo verificarse se han retirado de la edición abierta.
+3. Dichas imágenes se sustituyen por esquemas conceptuales originales, identificados como tales en cada diapositiva.
+4. Solo se conservan los logotipos de la Universidad Rey Juan Carlos y del Máster con finalidad identificativa. Esas marcas quedan excluidas de CC BY-SA 4.0.
+5. La decisión individual aplicada a cada fichero gráfico se registra en MATRIZ_DERECHOS_IMAGENES.csv.
+6. El texto, los ejemplos y los esquemas originales de la edición abierta se ofrecen bajo CC BY-SA 4.0.

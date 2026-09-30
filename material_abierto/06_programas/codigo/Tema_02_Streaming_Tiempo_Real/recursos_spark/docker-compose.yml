@@ -1,0 +1,13 @@
+services:
+  kafka:
+    image: apache/kafka:4.1.1
+    network_mode: host
+
+  jupyter:
+    image: quay.io/jupyter/pyspark-notebook:2026-02-23
+    network_mode: host
+    command: start-notebook.py --NotebookApp.token='' --NotebookApp.password=''
+    depends_on:
+      - kafka
+    volumes:
+      - ./:/home/jovyan/work

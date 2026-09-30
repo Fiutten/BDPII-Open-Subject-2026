@@ -1,6 +1,6 @@
 # Categoría 2 - Presentaciones
 
-## Candidatos localizados
+## Material publicado
 
 - Tema 1: una presentación sobre procesamiento distribuido.
 - Tema 2: dos presentaciones, Apache Kafka y Spark Structured Streaming.
@@ -9,10 +9,10 @@
 - Tema 5: una presentación sobre proyectos integrados y análisis automatizado.
 - Tema 6: una presentación sobre tendencias y futuro del procesamiento masivo de datos en el deporte.
 
-Los PDF se conservan en `material_original/teoria/` y las fuentes en `material_original/fuentes/teoria/`. Las fuentes LaTeX de los temas 5 y 6 son reconstrucciones a partir de los PDF y no deben presentarse como originales de autor.
+El PDF conjunto es `Presentaciones_Big_Data_Processing_II.pdf`. Los nueve PDF independientes están en `individuales/` y las fuentes LaTeX publicables en `editables/`. Las fuentes de los temas 5 y 6 son reconstrucciones documentadas a partir de los PDF de trabajo.
 
-## Estado
+## Derechos e imágenes
 
-Todavía no se copian aquí porque los PDF candidatos no reúnen de forma homogénea una licencia abierta visible ni un inventario completo de imágenes, fuentes y atribuciones. La revisión se realizará por presentación, conservando un único PDF canónico y los editables correspondientes.
+Cada presentación incorpora la identificación de autores, la licencia CC BY-SA 4.0 y una nota de reutilización. Las imágenes docentes sin licencia reutilizable verificada se han retirado y sustituido por esquemas conceptuales originales. Solo se conservan logotipos institucionales con finalidad identificativa, expresamente excluidos de la licencia.
 
-El fichero `FUENTES_Y_ATRIBUCIONES.txt` contiene la plantilla de control que debe completarse antes de publicar esta categoría.
+`MATRIZ_DERECHOS_IMAGENES.csv` documenta la decisión aplicada a cada imagen de la versión de trabajo. `FUENTES_Y_ATRIBUCIONES.txt` resume el criterio editorial y las fuentes técnicas.
