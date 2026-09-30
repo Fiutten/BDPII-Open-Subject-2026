@@ -1,13 +1,29 @@
-INVENTARIO DE FUENTES Y ATRIBUCIONES - EN PREPARACION
+INVENTARIO DE FUENTES Y ATRIBUCIONES - EN PREPARACIÓN
 
-Material localizado:
-- Sesión 1: Prompt Engineering y Post-training, 54 diapositivas.
-- Sesión 2: Retrieval-Augmented Generation (RAG), 30 diapositivas.
-- Sesión 3: Sistemas basados en agentes, 36 diapositivas.
-- Fuentes editables: tres ficheros LaTeX y un conjunto de recursos gráficos conservados en material_original/teoria/04_IA_Generativa/editables/.
+Alcance:
+- Tema 1: Procesamiento de Big Data en entornos distribuidos, 66 diapositivas.
+- Tema 2: Apache Kafka, 44 diapositivas.
+- Tema 2: Spark Structured Streaming, 60 diapositivas.
+- Tema 3: Optimización y escalabilidad, 36 diapositivas.
+- Tema 4, sesión 1: Prompt Engineering y Post-training, 54 diapositivas.
+- Tema 4, sesión 2: Retrieval-Augmented Generation (RAG), 30 diapositivas.
+- Tema 4, sesión 3: Sistemas basados en agentes, 36 diapositivas.
+- Temas 5 y 6: presentaciones y fuentes pendientes de incorporación.
+
+Fuentes editables:
+- material_original/fuentes/teoria/Tema_01_Procesamiento_Big_Data_Distribuido/
+- material_original/fuentes/teoria/Tema_02_Streaming_Tiempo_Real/
+- material_original/fuentes/teoria/Tema_03_Optimizacion_Escalabilidad/
+- material_original/fuentes/teoria/Tema_04_IA_Generativa/
 
 Estado:
-Los PDF todavía no incluyen una sección final completa de referencias, atribuciones y licencia de publicación abierta. Permanecen únicamente en material_original y no se consideran listos para BURJC Digital.
+Los PDF candidatos no incluyen todavía, de forma homogénea, una licencia abierta visible ni una sección final completa de referencias y atribuciones. Permanecen en material_original y no se consideran listos para BURJC Digital.
 
-Trabajo pendiente:
-Para cada imagen o elemento de terceros se documentarán la sesión y diapositiva, la fuente original, la autoría, la licencia o base jurídica de uso y la atribución que debe incorporarse al documento final.
+Ficha que debe completarse por cada elemento de terceros:
+- tema, presentación y número de diapositiva;
+- descripción del elemento;
+- autor o entidad responsable;
+- URL o referencia de la fuente original;
+- licencia, permiso o base jurídica de uso;
+- texto de atribución que aparecerá en el PDF final;
+- decisión: conservar, sustituir o retirar.

@@ -24,7 +24,7 @@ Repositorio de trabajo para preparar la publicación en abierto de **Big Data Pr
 
 ## Material incorporado
 
-El inventario actual contiene la guía docente oficial, los temas 1 a 3 y la parte disponible del bloque **Tema 4 - Inteligencia Artificial Generativa aplicada a Big Data Deportivo**.
+El inventario actual contiene la guía docente oficial, los temas 1 a 4 y una guía de estudio específica preparada como categoría 0.
 
 Temas 1 a 3 (procesamiento distribuido, Kafka y Spark Structured Streaming, optimización y escalabilidad):
 
@@ -41,10 +41,10 @@ Tema 4:
 
 Dentro de `material_original/`, los documentos finales se organizan por temas en `teoria/` y `practica/`; los editables quedan centralizados en `fuentes/`. No se mantienen ZIP redundantes en esta zona de trabajo.
 
-El detalle y la procedencia se documentan en `material_original/INVENTARIO_MATERIALES.md`. Falta por incorporar la parte de la asignatura que aportará Rubén Rodríguez Fernández.
+El detalle y la procedencia se documentan en `material_original/INVENTARIO_MATERIALES.md`. Las presentaciones y fuentes de los temas 5 y 6 están pendientes de incorporación.
 
 ## Criterios de publicación
 
-Este repositorio es público. Los materiales permanecen en `material_original/` hasta completar la revisión de autoría, derechos, licencias, fuentes y atribuciones. Solo después se copiarán y adaptarán en `material_abierto/`.
+Este repositorio es público. Los materiales permanecen en `material_original/` hasta completar la revisión de autoría, derechos, licencias, fuentes y atribuciones. Solo después se copiarán y adaptarán en `material_abierto/`. La guía de estudio ya ha superado esta revisión y está disponible en `material_abierto/00_guias/`.
 
 Se mantendrá un único PDF canónico por material, junto con sus fuentes editables cuando proceda. La entrega de BURJC se generará mediante copias, sin mover ni alterar los originales.

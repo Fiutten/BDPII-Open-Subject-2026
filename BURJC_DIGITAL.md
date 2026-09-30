@@ -24,11 +24,11 @@ Se ha incorporado y organizado:
 - el bloque del tema 4 sobre IA generativa: tres presentaciones, tres hojas de ejercicios, fuentes editables y ejemplos de código;
 - los temas 1 a 3: cuatro presentaciones con fuentes LaTeX e imágenes, dos enunciados de Kafka y Spark Structured Streaming, notebooks, productor Kafka, entorno Docker y un conjunto de datos simulado.
 
-Permanece pendiente la parte de la asignatura que aportará Rubén Rodríguez Fernández.
+Permanecen pendientes las presentaciones y fuentes editables de los temas 5 y 6.
 
 ## Correspondencia provisional con la convocatoria
 
-- Categoría 0: falta preparar la guía de estudio específica; la guía docente oficial se conserva como referencia.
+- Categoría 0: guía de estudio específica preparada, licenciada y revisada visualmente; la guía docente oficial se conserva como referencia institucional.
 - Categoría 1: sin materiales clasificados todavía.
 - Categoría 2: tres presentaciones del bloque de IA generativa y cuatro de los temas 1 a 3, pendientes de auditoría.
 - Categoría 3: tres colecciones de ejercicios y dos enunciados del tema 2, pendientes de consolidación.
@@ -44,7 +44,7 @@ La relación definitiva de categorías se fijará después de incorporar las tre
 - [ ] Recibir y organizar las aportaciones restantes.
 - [ ] Confirmar la autoría y los porcentajes de los tres docentes.
 - [ ] Confirmar las categorías que se presentan.
-- [ ] Preparar la guía de estudio de categoría 0.
+- [x] Preparar la guía de estudio de categoría 0.
 - [ ] Auditar derechos, licencias, fuentes y atribuciones.
 - [ ] Determinar el PDF canónico de cada material.
 - [ ] Reunir y revisar los formatos editables.

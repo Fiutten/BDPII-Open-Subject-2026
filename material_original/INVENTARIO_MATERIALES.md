@@ -14,7 +14,7 @@ Curso 2026-2027
 
 ## Estado de las aportaciones
 
-Están incorporados el bloque de IA generativa y los temas 1, 2 y 3. Falta por incorporar la parte que aportará Rubén Rodríguez Fernández.
+Están incorporados los temas 1, 2, 3 y 4. Las presentaciones y fuentes editables de los temas 5 y 6 están pendientes de incorporación.
 
 ## Material institucional
 
@@ -26,6 +26,7 @@ Las fuentes se conservan separadas de los documentos finales:
 
 - `fuentes/teoria/`: fuentes LaTeX, estilos e imágenes, organizados por tema.
 - `fuentes/practica/`: fuentes DOCX de los ejercicios y enunciados, organizadas por tema.
+- `fuentes/guias/Guia_de_estudio_Big_Data_Processing_II_2026-2027.docx`: fuente editable de la guía de estudio publicada en categoría 0.
 
 Las fuentes LaTeX de cada tema se mantienen junto con sus dependencias gráficas. La compilación requiere `-shell-escape` por el uso de `minted`: `latexmk -pdf -shell-escape <archivo>.tex`.
 
