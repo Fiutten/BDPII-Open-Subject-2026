@@ -1,0 +1,624 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usetheme{Madrid}
+\usecolortheme{DSLAB}
+\usefonttheme[onlylarge]{structurebold}
+\setbeamerfont*{frametitle}{size=\normalsize,series=\bfseries}
+\setbeamertemplate{navigation symbols}{}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{xmpmulti}
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{eurosym}
+\usepackage{listings}
+
+\lstset{
+  basicstyle=\ttfamily\small,
+  frame=single,
+  breaklines=true,
+  showstringspaces=false,
+  columns=fullflexible
+}
+
+
+\usetikzlibrary{arrows}
+\tikzstyle{block}=[draw opacity=0.7,line width=1.4cm]
+
+\setbeamercovered{dynamic}
+\setbeamerfont{author}{family=\rmfamily}
+\institute[URJC]{DSLAB}
+
+\author[Big Data Processing II]{
+	Alberto Fernández Isabel \\
+	Natalia Madrueño Sierro \\
+	Rubén Rodríguez Fernández \\
+}
+
+\title[Presentación]{
+	Big Data Processing II \\ \vspace{0.2em}
+	IA Generativa aplicada al deporte \\ \vspace{0.2em}
+    Tema 6: Tendencias y Futuro \\ \vspace{0.2em}
+    Procesamiento Masivo de Datos e IA en el Deporte
+}
+\date{Abril 2026}
+\titlegraphic{\includegraphics[width=3cm]{images/logos/logourjceps.png}}
+
+
+\setbeamertemplate{section page}{
+	\vspace{1cm}
+	\begin{beamercolorbox}[sep=8pt,center,wd=\textwidth]{section title}
+		\usebeamerfont{section title}\insertsection\par
+	\end{beamercolorbox}
+}
+
+% =====================================================
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Objetivos del Tema}
+\begin{itemize}
+    \item Comprender la transición de la analítica retrospectiva a la prescriptiva en el deporte.
+    \item Explorar tecnologías emergentes actuales: Edge Computing, 5G, Visión Artificial.
+    \item Analizar implicaciones estratégicas y de negocio de la analítica prescriptiva.
+    \item Evaluar tecnologías del futuro próximo: computación cuántica, blockchain, BCI, datos sintéticos.
+    \item Examinar los retos éticos, legales y de gobernanza de datos biométricos.
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Índice}
+\tableofcontents
+\end{frame}
+
+% =====================================================
+\section{Introducción: De la observación retrospectiva a la prescripción estratégica}
+\frame{\sectionpage}
+
+\begin{frame}\frametitle{La evolución de la analítica deportiva}
+\begin{itemize}
+    \item \textbf{Pasado:} Análisis descriptivo post-partido (batch processing).
+    \item \textbf{Presente:} Procesamiento en tiempo real con Kafka y Spark Streaming.
+    \item \textbf{Futuro:} Analítica prescriptiva que recomienda acciones óptimas automáticamente.
+    \item Transición de "¿qué pasó?" $\rightarrow$ "¿por qué pasó?" $\rightarrow$ "¿qué debemos hacer?"
+\end{itemize}
+\vspace{0.1em}
+\begin{itemize}
+    \item \textbf{Desafío:} El valor del dato decae exponencialmente desde el momento del evento.
+    \item \textbf{Objetivo:} Insights accionables durante la competición, no después.
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Analítica Predictiva vs Prescriptiva}
+\begin{columns}[T]
+\column{0.5\textwidth}
+\textbf{Predictiva}
+\begin{itemize}
+    \item Anticipa probabilidades
+    \item "¿Cuál es el riesgo de lesión?"
+    \item Requiere interpretación humana
+\end{itemize}
+
+\column{0.5\textwidth}
+\textbf{Prescriptiva}
+\begin{itemize}
+    \item Recomienda acciones
+    \item "Sustituye al jugador X por Y en el minuto 65"
+    \item Evalúa escenarios concurrentes
+    \item Maximiza probabilidad de éxito
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{El mercado de la analítica deportiva}
+\begin{itemize}
+    \item Valoración proyectada: \textbf{3.400 millones de dólares para 2028}.
+    \item Impulsores clave:
+    \begin{itemize}
+        \item Reducción drástica de costes de computación para IA
+        \item Comercialización de derechos NIL (Nombre, Imagen, Semejanza)
+        \item Obsolescencia de cookies de terceros
+        \item Necesidad de captura de datos propios
+    \end{itemize}
+    \item La tecnología pasa de soporte a \textbf{núcleo estratégico del negocio}.
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Eventos globales como catalizadores}
+\begin{itemize}
+    \item \textbf{Juegos Olímpicos de Invierno Milán 2026}
+    \item \textbf{Copa Mundial FIFA 2026}
+    \item Actúan como bancos de pruebas de tecnologías disruptivas
+    \item Demuestran que eficiencia, personalización, arbitraje y equidad dependen de infraestructuras convergentes
+\end{itemize}
+\end{frame}
+
+% =====================================================
+\section{Convergencia de infraestructura: El estadio de latencia cero}
+\frame{\sectionpage}
+
+\begin{frame}\frametitle{Limitaciones del Cloud Computing tradicional}
+\begin{itemize}
+    \item Excelente para análisis retrospectivo
+    \item Transmitir telemetría de 60.000 espectadores $+$ biosensores de jugadores a centros remotos introduce latencias insalvables
+    \item Retardo incompatible con decisiones intra-partido
+\end{itemize}
+\textbf{Solución:} Multi-access Edge Computing (MEC) $+$ Redes 5G Privadas (P5G)
+\end{frame}
+
+\begin{frame}\frametitle{MEC + Redes 5G Privadas: Arquitectura convergente}
+\begin{columns}[T]
+\column{0.5\textwidth}
+\textbf{MEC (Edge Computing)}
+\begin{itemize}
+    \item Cómputo en el estadio
+    \item Latencia: cientos ms $\rightarrow$ 1 dígito
+    \item Análisis antes de que concluya jugada
+    \item CV opera localmente
+\end{itemize}
+
+\column{0.5\textwidth}
+\textbf{Redes 5G Privadas}
+\begin{itemize}
+    \item Carril dedicado
+    \item Network Slicing
+    \item Evita congestión Wi-Fi
+    \item Ancho de banda garantizado
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Protocolos 5G y arquitectura federada}
+\begin{columns}[T]
+\column{0.5\textwidth}
+\textbf{Protocolos críticos}
+\begin{itemize}
+    \item \textbf{mMTC:} Miles de IoT concurrentes
+    \item \textbf{URLLC:} Latencia ultra-baja, alertas médicas
+\end{itemize}
+
+\column{0.5\textwidth}
+\textbf{Arquitectura federada}
+\begin{itemize}
+    \item Nodos en estadio
+    \item Agregación continua
+    \item Filtrado local
+    \item Nube: histórico $+$ training
+\end{itemize}
+\end{columns}
+\textbf{Resultado:} Procesamiento distribuido con latencia mínima y ancho de banda optimizado.
+\end{frame}
+
+\begin{frame}\frametitle{Caso de estudio: Orange Velodrome}
+\begin{itemize}
+    \item Redes locales $+$ procesamiento en el borde
+    \item Zonas VIP con gafas de realidad aumentada
+    \item Superposición de estadísticas y mapas de calor en vivo
+    \item Sincronización con acción física sin retraso perceptible
+\end{itemize}
+\end{frame}
+
+% =====================================================
+\section{Visión artificial y desmaterialización de la telemetría}
+\frame{\sectionpage}
+
+\begin{frame}\frametitle{De wearables a Computer Vision: Desmaterialización}
+\begin{columns}[T]
+\column{0.45\textwidth}
+\textbf{Wearables tradicionales}
+\begin{itemize}
+    \item GPS, acelerómetros
+    \item Alta precisión
+    \item Fricciones:
+    \begin{itemize}
+        \item Calibración
+        \item Baterías
+        \item Incomodidad
+        \item Privacidad
+    \end{itemize}
+\end{itemize}
+
+\column{0.45\textwidth}
+\textbf{Computer Vision (2026)}
+\begin{itemize}
+    \item Tendencia dominante
+    \item Costes IA en caída
+    \item CNN $+$ pose esqueletal
+    \item Sin fricción física
+    \item Escala masiva
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Capacidades de la visión artificial deportiva}
+\begin{itemize}
+    \item Identificar jugadores inequívocamente (pese a oclusiones)
+    \item Rastrear coordenadas espaciales precisas
+    \item Medir distancias entre líneas defensivas
+    \item Cuantificar índice de intensidad de presión táctica (PPDA)
+    \item Todo de forma completamente automatizada
+\end{itemize}
+\textbf{Mercado:} Crecimiento anual del 29.8\%, de 2.390 M\$ a 8.700 M\$ para fin de década.
+\end{frame}
+
+\begin{frame}\frametitle{Gemelos digitales y avatares 3D}
+\begin{itemize}
+    \item \textbf{Copa Mundial FIFA 2026:} Colaboración FIFA-Lenovo
+    \item Generación de modelos 3D de alta precisión mediante escaneos digitales
+    \item No son estéticos: son la \textbf{Ground Truth} del procesamiento
+    \item Interactúan con sistema de fuera de juego semiautomático
+    \item Mejoran precisión al calcular momento de impacto y posición volumétrica
+    \item Se inyectan en retransmisiones para explicar decisiones VAR
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{IA generativa y mejora de arbitraje}
+\begin{itemize}
+    \item Reducción de desenfoque por movimiento (motion blur)
+    \item Procesamiento en tiempo real de cámaras corporales de árbitros
+    \item Ángulos complicados mejorados algorítmicamente
+    \item Transmisiones fluidas para revisión de jugadas
+\end{itemize}
+Visión artificial: de herramienta experimental a \textbf{infraestructura central}.
+\end{frame}
+
+% =====================================================
+\section{Analítica prescriptiva, orquestación multiagente y automatización}
+\frame{\sectionpage}
+
+\begin{frame}\frametitle{Más allá de las métricas avanzadas}
+\begin{itemize}
+    \item Calcular trayectorias y métricas ya no es ventaja: es el \textbf{estándar mínimo}
+    \item \textbf{Valor transformador:} Transición a ecosistemas prescriptivos
+    \begin{itemize}
+        \item Descriptivo: "¿Qué pasó en el partido?"
+        \item Diagnóstico: "¿Por qué perdimos el control?"
+        \item \textbf{Prescriptivo: "¿Qué ajustes debemos implementar?"}
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{ROI y madurez organizacional}
+\begin{columns}[T]
+\column{0.5\textwidth}
+\textbf{Propuesta de valor}
+\begin{itemize}
+    \item Reducción lesiones: 15-25\%
+    \item Optimización fichajes: 30-40\%
+    \item Inversión: 1-3M\euro
+    \item Break-even: 18-36 meses
+\end{itemize}
+
+\column{0.5\textwidth}
+\textbf{Factores críticos}
+\begin{itemize}
+    \item[\checkmark] Patrocinio ejecutivo
+    \item[\checkmark] Formación staff
+    \item[\checkmark] Pilotos graduales
+    \item[$\times$] Resistencia cultural
+    \item[$\times$] Silos departamentales
+    \item[$\times$] Falta de talento
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Ventaja competitiva sostenible}
+\begin{itemize}
+    \item \textbf{Hipótesis:} ¿La analítica prescriptiva es ventaja sostenible o commodity temporal?
+    \item \textbf{Evidencia empírica:}
+    \begin{itemize}
+        \item Liverpool FC (2018-2020): Inversión agresiva en ciencia de datos correlaciona con títulos
+        \item Democratización acelerada (Football AI Pro, soluciones SaaS) reduce brecha tecnológica
+    \end{itemize}
+    \item \textbf{Conclusión:} Ventaja no reside en \textit{tener} tecnología, sino en:
+    \begin{itemize}
+        \item Calidad y granularidad de datos propios
+        \item Capacidad de integración organizacional
+        \item Velocidad de adaptación táctica en función de insights
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Automatización agéntica: Adopción y estrategia}
+\textbf{Tendencia 2026:} Migración de prototipos a producción (Tema 5: implementación técnica)
+\begin{itemize}
+    \item Análisis táctico, búsqueda semántica, informes automatizados
+    \item 40h análisis manual $\rightarrow$ 4h supervisión
+\end{itemize}
+
+\vspace{0.3em}
+\textbf{Decisión estratégica:}
+\begin{columns}[T]
+\column{0.33\textwidth}
+\textbf{\small Build}
+\begin{itemize}
+    \small
+    \item Control total
+    \item 2-5M\euro/año
+\end{itemize}
+
+\column{0.33\textwidth}
+\textbf{\small Buy (SaaS)}
+\begin{itemize}
+    \small
+    \item Rápido
+    \item 200-500K\euro/año
+\end{itemize}
+
+\column{0.33\textwidth}
+\textbf{\small Partner}
+\begin{itemize}
+    \small
+    \item Co-desarrollo
+    \item Riesgo compartido
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Confianza y explicabilidad}
+\begin{itemize}
+    \item Los cuerpos técnicos rechazan "Cajas Negras"
+    \item Un sistema efectivo no solo emite: "Cambie a defensa zonal"
+    \item Debe acompañar evidencia trazable:
+    \begin{quote}
+    \textit{"Se recomienda cobertura zonal porque la fatiga de su lateral derecho está en percentil 90, y el rival capitaliza contraataques por esa banda en segundas partes."}
+    \end{quote}
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Democratización y formación profesional}
+\begin{columns}[T]
+\column{0.5\textwidth}
+\textbf{Football AI Pro (FIFA 2026)}
+\begin{itemize}
+    \item FIFA $+$ Lenovo
+    \item IA generativa multilingüe
+    \item Disponible 48 selecciones
+    \item Democratiza analítica táctica
+\end{itemize}
+
+\column{0.5\textwidth}
+\textbf{Nuevos perfiles}
+\begin{itemize}
+    \item LALIGA Business School
+    \item Máster Transformación Digital
+    \item Programa Ejecutivo IA Deporte
+    \item Analistas Estrategia Algorítmica
+\end{itemize}
+\end{columns}
+La brecha tecnológica se reduce: ventaja sostenible $=$ calidad de datos $+$ integración organizacional.
+\end{frame}
+
+% =====================================================
+\section{Tecnologías emergentes: Más allá del horizonte actual}
+\frame{\sectionpage}
+
+\begin{frame}\frametitle{Computación cuántica aplicada al deporte}
+\begin{itemize}
+    \item \textbf{Estado actual:} Investigación experimental, no producción
+    \item \textbf{Potencial transformador:}
+    \begin{itemize}
+        \item Optimización combinatoria de alineaciones ($11! = 40$M permutaciones)
+        \item Simulación de escenarios tácticos en paralelo cuántico
+        \item Resolución de problemas NP-hard en planificación de calendarios
+    \end{itemize}
+    \item \textbf{Casos de uso explorados:}
+    \begin{itemize}
+        \item IBM Quantum $+$ Fórmula 1: Optimización de estrategia de neumáticos
+        \item Algoritmos variacionales (VQE) para análisis de grafos tácticos
+    \end{itemize}
+    \item \textbf{Barrera:} Hardware cuántico aún limitado (qubits $<$ 1000, alta tasa de error)
+    \item \textbf{Horizonte:} 2030-2035 para aplicaciones prácticas en deporte de élite
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Blockchain: Soberanía y trazabilidad de datos}
+\begin{itemize}
+    \item \textbf{Problema actual:} Centralización de datos biométricos en proveedores tecnológicos
+    \item \textbf{Propuesta blockchain:}
+    \begin{itemize}
+        \item Atletas retienen propiedad criptográfica de sus datos
+        \item Smart contracts definen quién accede, cuándo y bajo qué condiciones
+        \item Registro inmutable de consentimientos y usos
+    \end{itemize}
+    \item \textbf{Casos de uso en desarrollo:}
+    \begin{itemize}
+        \item NFTs de firmas cinemáticas únicas (monetización NIL)
+        \item Marketplace descentralizado para licencias de datos
+        \item Auditoría transparente de cumplimiento GDPR/BIPA
+    \end{itemize}
+    \item \textbf{Retos:} Escalabilidad (throughput), consumo energético, complejidad técnica
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Interfaces Cerebro-Computadora (BCI)}
+\begin{itemize}
+    \item \textbf{Más allá de wearables:} Captura directa de señales neuronales
+    \item \textbf{Aplicaciones prospectivas:}
+    \begin{itemize}
+        \item Medición de carga cognitiva en tiempo real (toma de decisiones bajo presión)
+        \item Detección temprana de fatiga central (antes de manifestación física)
+        \item Optimización de estados de flow en entrenamiento
+    \end{itemize}
+    \item \textbf{Tecnologías actuales:}
+    \begin{itemize}
+        \item EEG no invasivo: precisión limitada, ruido de movimiento
+        \item Implantes neuronales (Neuralink): invasivos, dilemas éticos
+    \end{itemize}
+    \item \textbf{Horizonte:} 2028-2030 para BCI no invasivos portátiles
+    \item \textbf{Barrera crítica:} Aceptación ética y regulación de neurotecnología
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Datos sintéticos: Privacidad y escalabilidad}
+\begin{itemize}
+    \item \textbf{Problema:} Escasez de datos etiquetados $+$ restricciones de privacidad (GDPR, BIPA)
+    \item \textbf{Solución:} Generar datos sintéticos estadísticamente equivalentes
+    \begin{itemize}
+        \item GANs (Redes Generativas Adversarias) entrenadas en datos reales
+        \item Producen millones de trayectorias sintéticas de jugadores
+        \item Preservan distribuciones estadísticas pero no identidades reales
+    \end{itemize}
+    \item \textbf{Ventajas:}
+    \begin{itemize}
+        \item Entrenamiento de modelos ML sin exponer datos sensibles
+        \item Compartir datasets entre clubes sin violar contratos
+        \item Aumentar diversidad de casos extremos (lesiones raras)
+    \end{itemize}
+    \item \textbf{Desafío:} Garantizar que datos sintéticos no permiten re-identificación
+\end{itemize}
+\end{frame}
+
+% =====================================================
+\section{Retos éticos, legales y gobernanza de datos}
+\frame{\sectionpage}
+
+\begin{frame}\frametitle{El poder asimétrico del dato biométrico}
+\begin{itemize}
+    \item Capturar millones de puntos biométricos, cinemáticos y tácticos confiere ventaja asimétrica
+    \item Telemetría íntima introduce fricciones normativas sin precedentes
+    \item Dilemas morales profundos
+    \item \textbf{Gobernanza ética:} Pilar estructural, no requisito accesorio
+    \item Evita que optimización degenere en vigilancia laboral encubierta
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Privacidad biométrica: Marco regulatorio UE}
+\textbf{RGPD (Reglamento General de Protección de Datos):}
+\begin{itemize}
+    \item Dato biométrico $=$ categoría especial, protección reforzada
+    \item Consentimiento libre, explícito e informado obligatorio
+    \item \textbf{Privacy-by-Design:} Privacidad desde el diseño
+    \item \textbf{DPIA:} Evaluaciones de Impacto previas al despliegue
+    \item Derechos de acceso, rectificación y supresión
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Privacidad biométrica: Marco regulatorio USA}
+\begin{itemize}
+    \item \textbf{BIPA (Illinois):} Uno de los estándares más estrictos
+    \begin{itemize}
+        \item Políticas escritas y publicadas sobre retención
+        \item Destrucción obligatoria tras cumplir finalidad
+        \item Límite máximo: 3 años desde última interacción
+    \end{itemize}
+    \item \textbf{TRAIGA (Texas) - Vigencia enero 2026:}
+    \begin{itemize}
+        \item Penaliza captura ilícita de biometría
+        \item Prohíbe discriminación automatizada
+        \item Prohíbe social scoring
+    \end{itemize}
+    \item \textbf{Ley de IA de Colorado:}
+    \begin{itemize}
+        \item Evaluaciones de impacto periódicas
+        \item "Cuidado razonable" de implementaciones algorítmicas
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Soberanía del dato y DPA}
+\begin{columns}[T]
+\column{0.5\textwidth}
+\textbf{DPA con proveedores}
+\begin{itemize}
+    \item Acuerdos restrictivos
+    \item Evitar extracción subrepticia
+    \item No usar datos para entrenar modelos sin consentimiento
+\end{itemize}
+
+\column{0.5\textwidth}
+\textbf{Relaciones laborales}
+\begin{itemize}
+    \item Atleta $=$ productor originario
+    \item Sindicatos (NFL, MLB):
+    \begin{itemize}
+        \item Bloquean uso punitivo
+        \item Prohíben negociación salarial
+        \item Consentimiento expreso
+        \item Derechos auditoría
+    \end{itemize}
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{NIL y monetización de datos}
+\begin{itemize}
+    \item \textbf{NIL (Nombre, Imagen y Semejanza):} Expansión masiva
+    \item Datos biomecánicos únicos $=$ activos digitales
+    \item Avatares 3D, firmas cinemáticas exclusivas
+    \item \textbf{Conflicto:} Ligas empaquetan métricas para apuestas/VR sin compensar al jugador
+\end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Ética algorítmica: Sesgos y Cajas Negras}
+\begin{columns}[T]
+\column{0.5\textwidth}
+\textbf{Sesgos algorítmicos}
+\begin{itemize}
+    \item Datos históricos con deficiencias humanas
+    \item Infrarrepresentación:
+    \begin{itemize}
+        \item Solo ligas masculinas europeas
+        \item Inferencias sesgadas para otros grupos
+    \end{itemize}
+    \item \textbf{Resultado:} Discriminación
+\end{itemize}
+
+\column{0.5\textwidth}
+\textbf{Problema Caja Negra}
+\begin{itemize}
+    \item Sin explicación de variables
+    \item Socava transparencia
+    \item Etiquetado prematuro:
+    \begin{itemize}
+        \item "Bajo potencial"
+        \item "Frágil"
+        \item Estigmas de mercado
+    \end{itemize}
+\end{itemize}
+\end{columns}
+\end{frame}
+
+\begin{frame}\frametitle{Principio de supervisión humana continua}
+\begin{itemize}
+    \item \textbf{Human-in-the-Loop (HITL):}
+    \item IA opera como apoyo complementario
+    \item No reemplaza evaluación integral humana
+    \item Resultados prescriptivos requieren validación
+    \item Combina:
+    \begin{itemize}
+        \item Precisión algorítmica
+        \item Intuición y experiencia del especialista
+        \item Contexto situacional
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+% =====================================================
+\section*{Conclusiones}
+\frame{\sectionpage}
+
+\begin{frame}\frametitle{Conclusiones}
+\begin{itemize}
+    \item La convergencia de Edge Computing, 5G y visión artificial redefine el ecosistema deportivo actual.
+    \item La analítica prescriptiva es decisión estratégica de negocio, no solo técnica: ROI, madurez organizacional y ventaja competitiva determinan el éxito.
+    \item Tecnologías emergentes (quantum, blockchain, BCI, datos sintéticos) marcarán la próxima década: preparación anticipada es clave.
+    \item La democratización tecnológica (Football AI Pro) reduce brechas, trasladando ventaja a calidad de datos e integración organizacional.
+    \item La gobernanza ética de datos biométricos no es opcional: es fundacional para la sostenibilidad del sistema.
+    \item El futuro exige profesionales híbridos: dominio técnico $+$ comprensión estratégica $+$ ética aplicada.
+\end{itemize}
+\end{frame}
+
+\end{document}

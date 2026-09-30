@@ -14,7 +14,7 @@ Curso 2026-2027
 
 ## Estado de las aportaciones
 
-Están incorporados los temas 1, 2, 3 y 4. Las presentaciones y fuentes editables de los temas 5 y 6 están pendientes de incorporación.
+Están incorporados los temas 1 a 6. Las fuentes LaTeX de los temas 5 y 6 se han reconstruido a partir de sus PDF.
 
 ## Material institucional
 
@@ -106,6 +106,26 @@ Las tres fuentes LaTeX, el estilo Beamer y todas sus imágenes están extraídos
 - `programas/Tema_04_IA_Generativa/requirements.txt`: dependencias comunes.
 
 Los cinco programas superan la comprobación sintáctica de Python. Todavía deben revisarse su documentación, datos de ejemplo, licencia y ejecución reproducible antes de publicarlos como categoría 6.
+
+## Tema 5 - Proyectos integrados
+
+### Presentación
+
+- `teoria/Tema_05_Proyecto_Integrado/BDPII_Tema_05_Proyecto_Integrado.pdf`: 46 diapositivas. Subtítulo: «Del dato en tiempo real al análisis automatizado».
+
+### Fuente
+
+- `fuentes/teoria/Tema_05_Proyecto_Integrado/BDPII_Tema_05_Proyecto_Integrado.tex`, estilo Beamer y logotipos. Fuente reconstruida a partir del PDF: reproduce su texto diapositiva a diapositiva, pero no es el original de los autores.
+
+## Tema 6 - Tendencias y futuro
+
+### Presentación
+
+- `teoria/Tema_06_Tendencias_Futuro/BDPII_Tema_06_Tendencias_Futuro.pdf`: 40 diapositivas. Subtítulo: «Procesamiento Masivo de Datos e IA en el Deporte».
+
+### Fuente
+
+- `fuentes/teoria/Tema_06_Tendencias_Futuro/BDPII_Tema_06_Tendencias_Futuro.tex`, estilo Beamer y logotipos. Fuente reconstruida a partir del PDF: reproduce su texto diapositiva a diapositiva, pero no es el original de los autores.
 
 ## Autoría y procedencia
 

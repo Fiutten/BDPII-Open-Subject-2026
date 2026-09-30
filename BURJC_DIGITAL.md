@@ -22,20 +22,19 @@ Se ha incorporado y organizado:
 
 - la guía docente oficial del curso 2026-2027;
 - el bloque del tema 4 sobre IA generativa: tres presentaciones, tres hojas de ejercicios, fuentes editables y ejemplos de código;
-- los temas 1 a 3: cuatro presentaciones con fuentes LaTeX e imágenes, dos enunciados de Kafka y Spark Structured Streaming, notebooks, productor Kafka, entorno Docker y un conjunto de datos simulado.
-
-Permanecen pendientes las presentaciones y fuentes editables de los temas 5 y 6.
+- los temas 1 a 3: cuatro presentaciones con fuentes LaTeX e imágenes, dos enunciados de Kafka y Spark Structured Streaming, notebooks, productor Kafka, entorno Docker y un conjunto de datos simulado;
+- los temas 5 y 6: una presentación cada uno, con fuentes LaTeX reconstruidas a partir de los PDF.
 
 ## Correspondencia provisional con la convocatoria
 
 - Categoría 0: guía de estudio específica preparada, licenciada y revisada visualmente; la guía docente oficial se conserva como referencia institucional.
 - Categoría 1: sin materiales clasificados todavía.
-- Categoría 2: tres presentaciones del bloque de IA generativa y cuatro de los temas 1 a 3, pendientes de auditoría.
+- Categoría 2: tres presentaciones del bloque de IA generativa, cuatro de los temas 1 a 3 y una de cada uno de los temas 5 y 6, pendientes de auditoría.
 - Categoría 3: tres colecciones de ejercicios y dos enunciados del tema 2, pendientes de consolidación.
 - Categoría 6: cinco programas Python y sus dependencias, tres notebooks, un productor Kafka, un entorno Docker y un conjunto de datos simulado, pendientes de revisión y documentación para uso autónomo.
 - Categoría 8: sin materiales clasificados todavía.
 
-La relación definitiva de categorías se fijará después de incorporar los materiales pendientes de los temas 5 y 6 y completar la auditoría de publicación.
+La relación definitiva de categorías se fijará después de completar la auditoría de publicación.
 
 ## Lista de control
 

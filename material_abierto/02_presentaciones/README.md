@@ -6,7 +6,8 @@
 - Tema 2: dos presentaciones, Apache Kafka y Spark Structured Streaming.
 - Tema 3: una presentación sobre optimización y escalabilidad.
 - Tema 4: tres presentaciones sobre prompting/post-training, RAG y agentes.
-- Temas 5 y 6: pendientes de incorporación.
+- Tema 5: una presentación sobre proyectos integrados.
+- Tema 6: una presentación sobre tendencias y futuro.
 
 Los PDF se conservan en `material_original/teoria/` y sus fuentes en `material_original/fuentes/teoria/`.
 
