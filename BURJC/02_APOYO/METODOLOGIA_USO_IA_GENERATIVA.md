@@ -2,7 +2,7 @@
 
 ## Alcance
 
-El apoyo generativo se limitó a la guía de estudio y a la documentación editorial y técnica del repositorio. Las presentaciones, prácticas y programas preexistentes se tomaron como fuentes docentes y no se regeneraron como sustitución de la autoría académica.
+El apoyo generativo se aplicó a la guía de estudio, los apuntes y la documentación editorial y técnica del repositorio. Las presentaciones, prácticas y programas preexistentes se tomaron como fuentes docentes y fueron la base temática de los nuevos textos, sin sustituir el diseño ni la autoría académica del equipo docente.
 
 ## Materiales de partida
 
@@ -15,7 +15,7 @@ El apoyo generativo se limitó a la guía de estudio y a la documentación edito
 ## Proceso seguido
 
 1. Inventario y clasificación manual por temas y categorías.
-2. Propuestas de organización y de redacción inicial para la guía y los documentos de apoyo.
+2. Propuestas de organización y de redacción inicial para la guía, los apuntes y los documentos de apoyo.
 3. Contraste de cada propuesta con la guía docente y los archivos fuente.
 4. Revisión humana de contenidos, secuencia, terminología, referencias, licencias y alcance.
 5. Generación automatizada de copias abiertas sin alterar los originales.

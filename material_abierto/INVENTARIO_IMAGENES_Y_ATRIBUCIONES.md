@@ -9,7 +9,8 @@ Este inventario describe las imágenes que permanecen realmente incorporadas en 
 
 ## Categoría 1. Apuntes
 
-No se presenta un documento autónomo en esta categoría. El directorio solo contiene una nota explicativa y no incorpora imágenes.
+- Distintivo **CC BY-SA 4.0**: identifica la licencia de la obra; las marcas de Creative Commons no forman parte de la obra licenciada.
+- No se incorporan fotografías, ilustraciones ni gráficos de terceros. Los esquemas se presentan como texto, tablas o código de elaboración propia.
 
 ## Categoría 2. Presentaciones
 

@@ -4,7 +4,7 @@
 
 © 2026 Alberto Fernández Isabel, Natalia Madrueño Sierro y Rubén Rodríguez Fernández. Algunos derechos reservados.
 
-La guía de estudio, las presentaciones, los enunciados, los textos y los esquemas originales de esta edición se distribuyen bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/deed.es) (CC BY-SA 4.0).
+La guía de estudio, los apuntes, las presentaciones, los enunciados, los textos y los esquemas originales de esta edición se distribuyen bajo la licencia [Creative Commons Atribución-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/deed.es) (CC BY-SA 4.0).
 
 ## Código
 

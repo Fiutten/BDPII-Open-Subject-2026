@@ -12,12 +12,12 @@ Materiales de la asignatura Big Data Processing II
 
 ## Resumen breve
 
-Material docente en abierto de la asignatura Big Data Processing II, del Máster Universitario en Análisis de Datos Deportivos de la Universidad Rey Juan Carlos. El recurso integra una guía de estudio con planificación por sesiones, presentaciones de los seis temas, ejercicios y proyecto transversal, además de programas y notebooks reproducibles sobre procesamiento distribuido, Apache Kafka, Spark Structured Streaming, optimización, inteligencia artificial generativa, RAG y sistemas basados en agentes.
+Material docente en abierto de la asignatura Big Data Processing II, del Máster Universitario en Análisis de Datos Deportivos de la Universidad Rey Juan Carlos. El recurso integra una guía de estudio con planificación por sesiones, apuntes autónomos de los seis temas, presentaciones, ejercicios y proyecto transversal, además de programas y notebooks reproducibles sobre procesamiento distribuido, Apache Kafka, Spark Structured Streaming, optimización, inteligencia artificial generativa, RAG y sistemas basados en agentes.
 
 ## Descripción de los ficheros
 
-- `Big_Data_Processing_II.pdf` — Libro principal. Categoría **Guía de estudio**, categoría **Presentaciones** y categoría **Prácticas, ejercicios y problemas**, con descripción de la categoría **Programas de ordenador**.
-- `Big_Data_Processing_II_editables.zip` — Fuentes editables de la guía, las presentaciones y las prácticas; incluye documentación de licencias, imágenes, atribuciones y metodología de uso de herramientas generativas.
+- `Big_Data_Processing_II.pdf` — Libro principal. Categorías **Guía de estudio**, **Apuntes**, **Presentaciones** y **Prácticas, ejercicios y problemas**, con descripción de la categoría **Programas de ordenador**.
+- `Big_Data_Processing_II_editables.zip` — Fuentes editables de la guía, los apuntes, las presentaciones y las prácticas; incluye documentación de licencias, imágenes, atribuciones y metodología de uso de herramientas generativas.
 - `Big_Data_Processing_II_codigo.tar.gz` — Código fuente, notebooks, dependencias, datos simulados, documentación y licencia MIT correspondientes a la categoría **Programas de ordenador**.
 
 ## Palabras clave

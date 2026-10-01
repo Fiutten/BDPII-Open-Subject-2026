@@ -1,6 +1,6 @@
 # Declaración sobre el uso de herramientas de inteligencia artificial generativa
 
-En la preparación de la guía de estudio y de la documentación editorial de esta edición se emplearon herramientas generativas de texto como apoyo parcial para organizar información ya aportada por el equipo docente, proponer redacciones iniciales de textos de enlace, normalizar la estructura del repositorio y comprobar la coherencia entre documentos.
+En la preparación de la guía de estudio, los apuntes y la documentación editorial de esta edición se emplearon herramientas generativas de texto como apoyo parcial para organizar y desarrollar información aportada por el equipo docente, proponer redacciones iniciales, normalizar la estructura del repositorio y comprobar la coherencia entre documentos.
 
 Estas herramientas no sustituyeron el diseño docente, la selección de contenidos técnicos, la elaboración original de las presentaciones y los ejercicios ni la evaluación académica. No se conservan imágenes generadas por inteligencia artificial en la edición abierta. Las imágenes sin licencia reutilizable verificada se retiraron y fueron sustituidas por esquemas conceptuales originales y controlados.
 

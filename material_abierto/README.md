@@ -5,10 +5,11 @@ Edición revisada para la convocatoria de asignaturas en abierto 2026-2027 de la
 ## Categorías
 
 - `00_guias/`: categoría 0, guía de estudio con planificación detallada de 15 sesiones.
+- `01_apuntes/`: categoría 1, apuntes autónomos de los seis temas en PDF y formato editable.
 - `02_presentaciones/`: categoría 2, nueve presentaciones y fuentes LaTeX.
 - `03_practicas/`: categoría 3, seis enunciados y fuentes DOCX.
 - `06_programas/`: categoría 6, código, notebooks, datos simulados y entornos reproducibles.
-- `01_apuntes/` y `08_otros_materiales/`: categorías no presentadas en esta versión.
+- `08_otros_materiales/`: categoría no presentada en esta versión.
 - `99_burjc_package/`: zona de construcción del paquete final; no es una categoría.
 
 ## Licencias y terceros

@@ -9,18 +9,19 @@
 ## Categorías incluidas
 
 - Categoría 0: guía de estudio.
+- Categoría 1: apuntes.
 - Categoría 2: presentaciones.
 - Categoría 3: prácticas, ejercicios y problemas.
 - Categoría 6: programas de ordenador.
 
-No se presentan materiales en las categorías 1 ni 8.
+No se presentan materiales en la categoría 8.
 
 ## Ficheros del depósito
 
 La convocatoria agrupa las categorías anteriores en un único depósito de BURJC Digital. `BURJC/01_SUBIR/` contiene copias de:
 
-1. `Big_Data_Processing_II.pdf`: libro principal con guía, presentaciones, prácticas y descripción del software.
-2. `Big_Data_Processing_II_editables.zip`: fuentes de los documentos, licencias, atribuciones y metodología de uso generativo.
+1. `Big_Data_Processing_II.pdf`: libro principal con guía, apuntes, presentaciones, prácticas y descripción del software.
+2. `Big_Data_Processing_II_editables.zip`: fuentes de la guía, los apuntes, las presentaciones y las prácticas, además de licencias, atribuciones y metodología de uso generativo.
 3. `Big_Data_Processing_II_codigo.tar.gz`: código, notebooks, dependencias, datos simulados, documentación y licencia MIT.
 
 Los metadatos, la justificación de criterios, los borradores de declaraciones y el manifiesto SHA-256 se conservan en `BURJC/02_APOYO/` y no se adjuntan salvo que el formulario o la convocatoria los soliciten expresamente.
@@ -40,6 +41,7 @@ La declaración describe un uso auxiliar, limitado a organización editorial, re
 ## Estado
 
 - [x] Guía de estudio generada y revisada: 20 páginas.
+- [x] Apuntes autónomos generados y revisados: 23 páginas.
 - [x] Nueve presentaciones abiertas generadas y revisadas: 430 páginas.
 - [x] Seis prácticas abiertas generadas y revisadas: 34 páginas.
 - [x] Código organizado y licenciado.

@@ -34,6 +34,7 @@ UPLOAD = ROOT / "BURJC" / "01_SUBIR"
 SUPPORT = ROOT / "BURJC" / "02_APOYO"
 
 GUIDE = OPEN / "00_guias" / "Guia_de_estudio_Big_Data_Processing_II_2026-2027.pdf"
+NOTES = OPEN / "01_apuntes" / "Apuntes_Big_Data_Processing_II.pdf"
 SLIDES = OPEN / "02_presentaciones" / "Presentaciones_Big_Data_Processing_II.pdf"
 PRACTICES = OPEN / "03_practicas" / "Practicas_Big_Data_Processing_II.pdf"
 BADGE = OPEN / "assets" / "cc_by_sa_4_0.png"
@@ -211,6 +212,7 @@ def make_frontmatter(path: Path, starts: dict[str, int]) -> None:
             [
                 ["Sección", "Contenido", "Página"],
                 ["Categoría 0", "Guía de estudio", str(starts["guide"])],
+                ["Categoría 1", "Apuntes de la asignatura", str(starts["notes"])],
                 ["Categoría 2", "Presentaciones de los temas 1 a 6", str(starts["slides"])],
                 ["Categoría 3", "Prácticas, ejercicios y proyecto final", str(starts["practices"])],
                 ["Categoría 6", "Descripción de programas de ordenador", str(starts["programs"])],
@@ -250,6 +252,7 @@ def merge_book(front: Path, programs: Path) -> None:
     sections = [
         (front, None),
         (GUIDE, "Categoría 0 · Guía de estudio"),
+        (NOTES, "Categoría 1 · Apuntes"),
         (SLIDES, "Categoría 2 · Presentaciones"),
         (PRACTICES, "Categoría 3 · Prácticas, ejercicios y problemas"),
         (programs, "Categoría 6 · Programas de ordenador"),
@@ -274,6 +277,7 @@ def wanted_editable(path: Path) -> bool:
 def build_editables_zip() -> None:
     roots = [
         OPEN / "00_guias" / "editables",
+        OPEN / "01_apuntes" / "editables",
         OPEN / "02_presentaciones" / "editables",
         OPEN / "03_practicas" / "editables",
     ]
@@ -329,7 +333,7 @@ def main() -> None:
     PACKAGE.mkdir(parents=True, exist_ok=True)
     UPLOAD.mkdir(parents=True, exist_ok=True)
     SUPPORT.mkdir(parents=True, exist_ok=True)
-    for required in (GUIDE, SLIDES, PRACTICES, BADGE):
+    for required in (GUIDE, NOTES, SLIDES, PRACTICES, BADGE):
         if not required.exists():
             raise FileNotFoundError(required)
 
@@ -340,9 +344,10 @@ def main() -> None:
     front_pages = 3
     starts = {
         "guide": front_pages + 1,
-        "slides": front_pages + page_count(GUIDE) + 1,
-        "practices": front_pages + page_count(GUIDE) + page_count(SLIDES) + 1,
-        "programs": front_pages + page_count(GUIDE) + page_count(SLIDES) + page_count(PRACTICES) + 1,
+        "notes": front_pages + page_count(GUIDE) + 1,
+        "slides": front_pages + page_count(GUIDE) + page_count(NOTES) + 1,
+        "practices": front_pages + page_count(GUIDE) + page_count(NOTES) + page_count(SLIDES) + 1,
+        "programs": front_pages + page_count(GUIDE) + page_count(NOTES) + page_count(SLIDES) + page_count(PRACTICES) + 1,
     }
     make_frontmatter(front, starts)
     if page_count(front) != front_pages:

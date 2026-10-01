@@ -3,6 +3,7 @@
 ## Materiales
 
 - [x] Categoría 0: guía con planificación detallada por sesión.
+- [x] Categoría 1: apuntes autónomos en PDF y DOCX editable.
 - [x] Categoría 2: nueve presentaciones con PDF y fuentes.
 - [x] Categoría 3: seis enunciados con PDF y fuentes.
 - [x] Categoría 6: código, notebooks, dependencias, documentación y licencia MIT.
