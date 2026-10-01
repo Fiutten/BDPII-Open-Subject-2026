@@ -18,6 +18,7 @@ El código fuente y los notebooks de `06_programas/` se distribuyen bajo la lice
 - Ninguna imagen docente sin licencia reutilizable verificada se redistribuye en `material_abierto/`.
 - Las imágenes retiradas se sustituyen por esquemas conceptuales originales.
 - La matriz `02_presentaciones/MATRIZ_DERECHOS_IMAGENES.csv` ofrece trazabilidad entre los ficheros de trabajo y la decisión editorial.
+- `INVENTARIO_IMAGENES_Y_ATRIBUCIONES.md` identifica todas las clases de imágenes que permanecen en la edición abierta y su régimen de reutilización.
 
 ## Forma de atribución recomendada
 

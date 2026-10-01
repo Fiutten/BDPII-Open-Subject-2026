@@ -352,6 +352,10 @@ def remove_docx_image_by_target(doc: Document, target_filename: str) -> None:
             drawing = drawing.getparent()
         if drawing is not None and drawing.getparent() is not None:
             drawing.getparent().remove(drawing)
+    # Eliminar también la relación para que python-docx no conserve la imagen
+    # como recurso huérfano dentro del DOCX publicado.
+    for rel_id in relationship_ids:
+        doc.part.drop_rel(rel_id)
 
 
 def set_run_font(run, size: float, bold: bool = False, color: str = "222222") -> None:

@@ -15,4 +15,4 @@ Edición revisada para la convocatoria de asignaturas en abierto 2026-2027 de la
 
 El contenido documental original se ofrece bajo Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0). El código de `06_programas/` se ofrece bajo MIT. Los logotipos y marcas institucionales conservan su régimen propio y quedan excluidos de la licencia CC.
 
-Las imágenes de la versión de trabajo sin licencia reutilizable verificada no se redistribuyen: se han sustituido por esquemas originales. El detalle figura en `LICENCIAS_Y_MATERIALES_TERCEROS.md` y en la matriz de la categoría 2.
+Las imágenes de la versión de trabajo sin licencia reutilizable verificada no se redistribuyen: se han sustituido por esquemas originales. El detalle figura en `LICENCIAS_Y_MATERIALES_TERCEROS.md`, en `INVENTARIO_IMAGENES_Y_ATRIBUCIONES.md` y en la matriz de la categoría 2.

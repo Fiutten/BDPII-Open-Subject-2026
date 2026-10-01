@@ -280,6 +280,7 @@ def build_editables_zip() -> None:
     support_files = [
         OPEN / "README.md",
         OPEN / "LICENCIAS_Y_MATERIALES_TERCEROS.md",
+        OPEN / "INVENTARIO_IMAGENES_Y_ATRIBUCIONES.md",
         OPEN / "02_presentaciones" / "MATRIZ_DERECHOS_IMAGENES.csv",
         OPEN / "02_presentaciones" / "FUENTES_Y_ATRIBUCIONES.txt",
         PACKAGE / "DECLARACION_USO_IA_GENERATIVA.md",
@@ -320,6 +321,7 @@ def copy_support() -> None:
     ):
         shutil.copy2(PACKAGE / name, SUPPORT / name)
     shutil.copy2(OPEN / "LICENCIAS_Y_MATERIALES_TERCEROS.md", SUPPORT / "LICENCIAS_Y_MATERIALES_TERCEROS.md")
+    shutil.copy2(OPEN / "INVENTARIO_IMAGENES_Y_ATRIBUCIONES.md", SUPPORT / "INVENTARIO_IMAGENES_Y_ATRIBUCIONES.md")
     shutil.copy2(OPEN / "02_presentaciones" / "MATRIZ_DERECHOS_IMAGENES.csv", SUPPORT / "MATRIZ_DERECHOS_IMAGENES.csv")
 
 
