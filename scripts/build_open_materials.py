@@ -503,13 +503,14 @@ Material docente en abierto de la Universidad Rey Juan Carlos.
 - Titulación: {DEGREE}
 - Curso: 2026-2027
 - Autores: {', '.join(AUTHORS)}
-- Repositorio público: https://github.com/Fiutten/BDPII-Open-Subject-2026
+- Repositorio público del código: https://github.com/Fiutten/BDPII-Open-Subject-Code-URJC
+- Repositorio maestro de materiales: https://github.com/Fiutten/BDPII-Open-Subject-2026
 - Depósito institucional: {BURJC_URL}
 - Licencia del código: MIT
 
 ## Contenido
 
-El directorio `codigo/` reúne programas y notebooks de los temas 1, 2, 4 y 5. Incluye ejemplos de procesamiento directo y streaming, productor Kafka, entorno Spark, ejercicios RAG y de agentes y una práctica Text-to-SQL con Spark y LangGraph.
+El directorio `codigo/` reúne programas y tres notebooks de los temas 1, 2, 4 y 5. Incluye ejemplos de procesamiento directo y streaming, productor Kafka, entorno Spark, ejercicios RAG y de agentes y una práctica Text-to-SQL con Spark y LangGraph.
 
 Cada bloque conserva sus dependencias e instrucciones. Los archivos `.env` con credenciales no se distribuyen; solo se incluye `.env.example` cuando procede.
 

@@ -149,7 +149,7 @@ def make_program_description(path: Path) -> None:
         Spacer(1, 0.5 * cm),
         Paragraph("Repositorio y preservación", st["h1"]),
         Paragraph(
-            "Repositorio público: https://github.com/Fiutten/BDPII-Open-Subject-2026", st["body"]
+            "Repositorio público del código: https://github.com/Fiutten/BDPII-Open-Subject-Code-URJC", st["body"]
         ),
         Paragraph(
             "SWHID: pendiente de obtener y verificar después de archivar la versión pública definitiva. "

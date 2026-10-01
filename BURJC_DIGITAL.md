@@ -24,6 +24,8 @@ La convocatoria agrupa las categorías anteriores en un único depósito de BURJ
 2. `Big_Data_Processing_II_editables.zip`: fuentes de la guía, los apuntes, las presentaciones y las prácticas, además de licencias, atribuciones y metodología de uso generativo.
 3. `Big_Data_Processing_II_codigo.tar.gz`: código, notebooks, dependencias, datos simulados, documentación y licencia MIT.
 
+La copia pública preservable del código se encuentra en https://github.com/Fiutten/BDPII-Open-Subject-Code-URJC. El TAR.GZ debe regenerarse únicamente después de incorporar y verificar el SWHID de la versión pública definitiva.
+
 Los metadatos, la justificación de criterios, los borradores de declaraciones y el manifiesto SHA-256 se conservan en `BURJC/02_APOYO/` y no se adjuntan salvo que el formulario o la convocatoria los soliciten expresamente.
 
 ## Auditoría de derechos
@@ -45,11 +47,16 @@ La declaración describe un uso auxiliar, limitado a organización editorial, re
 - [x] Nueve presentaciones abiertas generadas y revisadas: 430 páginas.
 - [x] Seis prácticas abiertas generadas y revisadas: 34 páginas.
 - [x] Código organizado y licenciado.
+- [x] Código copiado al repositorio público independiente.
 - [x] Metadatos y justificación de rúbrica preparados.
 - [x] Declaración y metodología de uso generativo preparadas.
 - [ ] Porcentajes de autoría del Anexo V confirmados y firmados.
 - [ ] Versión pública definitiva archivada en Software Heritage.
 - [ ] SWHID exacto y commit público verificados e incorporados.
 - [ ] Paquete regenerado después de incorporar el SWHID.
+
+## Material pendiente de recepción
+
+Las fuentes docentes originales de teoría de los temas 5 y 6 están pendientes de entrega por Rubén Rodríguez Fernández. Las versiones abiertas actuales utilizan reconstrucciones LaTeX identificadas expresamente como tales; no se confunden con los originales ni bloquean la preparación del repositorio público de código.
 
 No deben inventarse identificadores persistentes ni declararse porcentajes de autoría sin acuerdo de los tres docentes.
