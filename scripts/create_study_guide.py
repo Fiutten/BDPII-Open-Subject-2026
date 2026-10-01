@@ -815,7 +815,7 @@ add_bullets(doc, [
     "Solo las copias validadas pasarán al paquete definitivo de BURJC Digital.",
 ])
 doc.add_paragraph(
-    "Los PDF de los seis temas y el enunciado de la práctica final están incorporados. Las fuentes de los temas 5 y 6 son reconstrucciones desde PDF y están identificadas como tales. Continúa pendiente la auditoría previa a la publicación abierta."
+    "Los PDF de los seis temas y el enunciado de la práctica final están incorporados. Las fuentes de los temas 5 y 6 son reconstrucciones fieles desde PDF, están identificadas como tales y han sido validadas mediante compilación y comparación textual con los documentos de trabajo."
 )
 
 page_break(doc)

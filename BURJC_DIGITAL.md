@@ -55,8 +55,8 @@ La declaración describe un uso auxiliar, limitado a organización editorial, re
 - [ ] SWHID exacto y commit público verificados e incorporados.
 - [ ] Paquete regenerado después de incorporar el SWHID.
 
-## Material pendiente de recepción
+## Fuentes de los temas 5 y 6
 
-Las fuentes docentes originales de teoría de los temas 5 y 6 están pendientes de entrega por Rubén Rodríguez Fernández. Las versiones abiertas actuales utilizan reconstrucciones LaTeX identificadas expresamente como tales; no se confunden con los originales ni bloquean la preparación del repositorio público de código.
+Rubén Rodríguez Fernández incorporó las fuentes LaTeX publicables de teoría de los temas 5 y 6 en el commit `652304e`. Ambas compilan correctamente y reproducen 46 y 40 diapositivas, respectivamente. Se mantienen identificadas como reconstrucciones fieles desde los PDF de trabajo, por lo que no se confunden con los editables originales de producción.
 
 No deben inventarse identificadores persistentes ni declararse porcentajes de autoría sin acuerdo de los tres docentes.
