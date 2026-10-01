@@ -15,6 +15,6 @@ No deben añadirse artículos, capítulos, imágenes, conjuntos de datos, presen
 - `fuentes/practica/Tema_XX_.../`: fuentes editables DOCX de enunciados y ejercicios.
 - `fuentes/practica/Proyecto_Final/`: fuente editable de la práctica final transversal.
 
-Los nombres de directorios y ficheros emplean numeración de dos dígitos para conservar el orden temático. Los comprimidos originales se extraen y sus contenidos se clasifican; no se mantienen copias ZIP redundantes dentro de `material_original/`.
+Los nombres de directorios y ficheros emplean numeración de dos dígitos para conservar el orden temático. Los comprimidos aportados se extraen y sus contenidos se clasifican; no se mantienen copias ZIP redundantes dentro de `material_original/`.
 
 El inventario actualizado se mantiene en `INVENTARIO_MATERIALES.md`.

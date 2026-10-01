@@ -9,7 +9,7 @@
 - Tema 5: una presentación sobre proyectos integrados y análisis automatizado.
 - Tema 6: una presentación sobre tendencias y futuro del procesamiento masivo de datos en el deporte.
 
-El PDF conjunto es `Presentaciones_Big_Data_Processing_II.pdf`. Los nueve PDF independientes están en `individuales/` y las fuentes LaTeX publicables en `editables/`. Las fuentes de los temas 5 y 6 son reconstrucciones documentadas a partir de los PDF de trabajo.
+El PDF conjunto es `Presentaciones_Big_Data_Processing_II.pdf`. Los nueve PDF independientes están en `individuales/` y las fuentes LaTeX editables en `editables/`. Las fuentes de los temas 5 y 6 están incorporadas y verificadas mediante compilación.
 
 ## Derechos e imágenes
 

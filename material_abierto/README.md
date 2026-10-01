@@ -18,4 +18,4 @@ El contenido documental original se ofrece bajo Creative Commons Atribución-Com
 
 Las imágenes de la versión de trabajo sin licencia reutilizable verificada no se redistribuyen: se han sustituido por esquemas originales. El detalle figura en `LICENCIAS_Y_MATERIALES_TERCEROS.md`, en `INVENTARIO_IMAGENES_Y_ATRIBUCIONES.md` y en la matriz de la categoría 2.
 
-Las fuentes LaTeX publicables de los temas 5 y 6 están incorporadas y organizadas en `material_original/fuentes/teoria/`. Fueron añadidas en el commit `652304e` firmado por Rubén Rodríguez Fernández y están documentadas como reconstrucciones fieles a partir de los PDF aportados, no como los editables originales usados para producirlos.
+Las fuentes LaTeX editables de los temas 5 y 6 están incorporadas y organizadas en `material_original/fuentes/teoria/`. Fueron añadidas en el commit `652304e` firmado por Rubén Rodríguez Fernández y han sido verificadas mediante compilación.

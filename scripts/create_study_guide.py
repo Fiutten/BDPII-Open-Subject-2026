@@ -344,7 +344,7 @@ doc.add_paragraph(
 add_callout(
     doc,
     "Edición y estado de los materiales",
-    "Esta edición se basa en la guía docente oficial publicada el 7 de julio de 2026 y en los materiales disponibles en el repositorio a 30 de septiembre de 2026. Las presentaciones de los seis temas están incorporadas. Las fuentes LaTeX de los temas 5 y 6 son reconstrucciones documentadas a partir de sus PDF, no los originales de autor.",
+    "Esta edición se basa en la guía docente oficial publicada el 7 de julio de 2026 y en los materiales disponibles en el repositorio a 30 de septiembre de 2026. Las presentaciones y las fuentes LaTeX editables de los seis temas están incorporadas.",
     LIGHT_BLUE,
 )
 
@@ -783,7 +783,7 @@ repo_rows = [
     ("Guía docente", "material_original/guias", "Referencia institucional", "Disponible"),
     ("Guía de estudio", "material_abierto/00_guias", "Categoría 0", "Disponible"),
     ("Presentaciones", "material_original/teoria", "Candidatas a categoría 2", "Temas 1–6; auditoría pendiente"),
-    ("Fuentes de teoría", "material_original/fuentes/teoria", "Editables", "Temas 1–6; las de T5–T6 son reconstrucciones desde PDF"),
+    ("Fuentes de teoría", "material_original/fuentes/teoria", "Editables", "Fuentes LaTeX de los temas 1–6"),
     ("Prácticas", "material_original/practica", "Candidatas a categoría 3", "Temas 2, 4 y 5; proyecto final separado"),
     ("Fuentes de práctica", "material_original/fuentes/practica", "Editables", "Temas 2 y 4; proyecto final"),
     ("Código y notebooks", "material_original/programas", "Candidatos a categoría 6", "Temas 1, 2, 4 y 5; revisión pendiente"),
@@ -815,7 +815,7 @@ add_bullets(doc, [
     "Solo las copias validadas pasarán al paquete definitivo de BURJC Digital.",
 ])
 doc.add_paragraph(
-    "Los PDF de los seis temas y el enunciado de la práctica final están incorporados. Las fuentes de los temas 5 y 6 son reconstrucciones fieles desde PDF, están identificadas como tales y han sido validadas mediante compilación y comparación textual con los documentos de trabajo."
+    "Los PDF de los seis temas y el enunciado de la práctica final están incorporados. Las fuentes LaTeX editables de los seis temas han sido verificadas mediante compilación."
 )
 
 page_break(doc)

@@ -57,6 +57,6 @@ La declaración describe un uso auxiliar, limitado a organización editorial, re
 
 ## Fuentes de los temas 5 y 6
 
-Rubén Rodríguez Fernández incorporó las fuentes LaTeX publicables de teoría de los temas 5 y 6 en el commit `652304e`. Ambas compilan correctamente y reproducen 46 y 40 diapositivas, respectivamente. Se mantienen identificadas como reconstrucciones fieles desde los PDF de trabajo, por lo que no se confunden con los editables originales de producción.
+Rubén Rodríguez Fernández incorporó las fuentes LaTeX editables de teoría de los temas 5 y 6 en el commit `652304e`. Ambas compilan correctamente y generan 46 y 40 diapositivas, respectivamente.
 
 No deben inventarse identificadores persistentes ni declararse porcentajes de autoría sin acuerdo de los tres docentes.

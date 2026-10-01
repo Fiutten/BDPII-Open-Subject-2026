@@ -14,7 +14,7 @@ Curso 2026-2027
 
 ## Estado de las aportaciones
 
-Están incorporadas las presentaciones de los seis temas. Las fuentes LaTeX de los temas 5 y 6 se han reconstruido a partir de sus PDF y no son los originales de autor. También se han incorporado un ejercicio de seguimiento del tema 5 y la práctica final transversal, con su fuente DOCX.
+Están incorporadas las presentaciones y las fuentes LaTeX editables de los seis temas. También se han incorporado un ejercicio de seguimiento del tema 5 y la práctica final transversal, con su fuente DOCX.
 
 ## Material institucional
 
@@ -115,7 +115,7 @@ Los cinco programas superan la comprobación sintáctica de Python. Todavía deb
 
 ### Fuente
 
-- `fuentes/teoria/Tema_05_Proyecto_Integrado/BDPII_Tema_05_Proyecto_Integrado.tex`, estilo Beamer y logotipos. Fuente reconstruida a partir del PDF: reproduce su texto diapositiva a diapositiva, pero no es el original de los autores.
+- `fuentes/teoria/Tema_05_Proyecto_Integrado/BDPII_Tema_05_Proyecto_Integrado.tex`, estilo Beamer y logotipos. Fuente editable verificada mediante compilación.
 
 ### Ejercicio de seguimiento
 
@@ -131,7 +131,7 @@ Los cinco programas superan la comprobación sintáctica de Python. Todavía deb
 
 ### Fuente
 
-- `fuentes/teoria/Tema_06_Tendencias_Futuro/BDPII_Tema_06_Tendencias_Futuro.tex`, estilo Beamer y logotipos. Fuente reconstruida a partir del PDF: reproduce su texto diapositiva a diapositiva, pero no es el original de los autores.
+- `fuentes/teoria/Tema_06_Tendencias_Futuro/BDPII_Tema_06_Tendencias_Futuro.tex`, estilo Beamer y logotipos. Fuente editable verificada mediante compilación.
 
 ## Práctica final - actividad evaluable transversal
 

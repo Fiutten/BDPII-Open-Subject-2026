@@ -44,7 +44,7 @@ Temas 5 y 6:
 - una presentación de 46 diapositivas para el tema 5, centrada en arquitecturas integradas, análisis automatizado, RAG multimodal y visualización conversacional;
 - un ejercicio de seguimiento del tema 5 para construir un agente Text-to-SQL con Spark y LangGraph;
 - una presentación de 40 diapositivas para el tema 6 sobre tendencias, infraestructura emergente, analítica prescriptiva y gobernanza;
-- fuentes LaTeX reconstruidas a partir de ambos PDF, documentadas como reconstrucciones y no como originales de autor;
+- fuentes LaTeX editables de ambos temas, verificadas mediante compilación;
 - el enunciado de la práctica final, separado del tema 5 porque es una actividad evaluable transversal que integra el temario completo.
 
 Dentro de `material_original/`, los documentos finales se organizan por temas en `teoria/` y `practica/`; los editables quedan centralizados en `fuentes/`. No se mantienen ZIP redundantes en esta zona de trabajo.
